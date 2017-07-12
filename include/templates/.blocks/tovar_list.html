@@ -1,0 +1,19 @@
+<div class="row2 row3">
+  <? $pages = getPages( 3, [ 'sql' => 'services&1!=1'] ); ?>
+  <div class="container clearfix">
+    <h3>Возможные варианты упаковки</h3>
+    <? foreach($pages as $it ) { ?>
+      <div class="col-sm-6">
+        <a href="<?=$it['link']?>" class="colored_li">
+          <h4><?=$it['name']?></h4>
+          <div>
+            <?=$it['description']?>
+          </div>
+          <i>Подробнее...</i>
+        </a>
+
+      </div>
+    <? } ?>
+  </div>
+  <br>
+</div>

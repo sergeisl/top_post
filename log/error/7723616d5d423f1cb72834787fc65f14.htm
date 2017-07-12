@@ -1,0 +1,52 @@
+<html><body>
+
+29.04.2017 19:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 748.
+<br>
+747:     setcookie("name", $user['name'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+748:     setcookie("hash", $user['pass'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+749:     //@setcookie("ref", '', time() - 999, CookiePath, CookieDomain); // удаляю реферальное cookie
+Запрос: /user/api.php?vk&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b&expires_in=86398&user_id=5607242&email=kdg%40htmlweb.ru.<br>
+SQL-Запрос: UPDATE db_user SET uid=44813268 WHERE id="7" LIMIT 1.
+Текст ошибки: <i>Undefined index: pass</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 748,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 55,
+    'function' => 'login_vk',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+
+<br />Переменные:<pre>Array
+(
+    [user] => Array
+        (
+            [uid] => 5607242
+            [sex] => 2
+            [photo_big] => https://pp.userapi.com/c10004/u5607242/a_3793e787.jpg
+            [mail] => kdg@htmlweb.ru
+            [vk_uid] => 5607242
+            [name] => kdg22
+            [fullname] => Дмитрий Колесников
+            [birthday] => 22.1.1971
+            [img] => https://pp.userapi.com/c10004/u5607242/a_3793e787.jpg
+        )
+
+    [user1] => 
+    [tel] => 2758077
+)
+</pre>
+</body></html>

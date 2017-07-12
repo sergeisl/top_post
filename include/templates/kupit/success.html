@@ -1,0 +1,17 @@
+<?
+$id = Zakaz::Add();
+$zakaz = new Zakaz( $id );
+$zakaz->WriteHeader( $_POST );
+$zakaz->setStatus( Zakaz::STATUS_SENT_TO_MANAGER );
+
+?>
+<section class="row row4" id="kupit">
+    <div class="container clearfix">
+        <div class="col-sm-12 col-md-12 clearfix">
+            <h3>Заказ добавлен</h3>
+            <form name="order" action="/kupit/delivery" method="post" class="order clearfix">
+                <p>Наш менеджер скоро с Вами свяжется</p>
+            </form>
+        </div>
+    </div>
+</section>

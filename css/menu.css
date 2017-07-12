@@ -1,0 +1,96 @@
+.menu{
+    width: 100%;
+    height: 65px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 150;
+    cmargin-top: -30px;
+}
+.menu_right {
+    margin-right: 5px;
+    float: right;
+}
+.ad-menu{
+    background: #444;
+    background: rgba(0, 0, 0, 0.7);
+}
+.ad-menu *:focus,.ad-menu *::before,.ad-menu *::after {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: content-box; /*это свойство обязательно*/
+}
+.ad-menu li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.ad-menu li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    width: 100%;
+    color: #fff;
+    opacity: 0.8;
+}
+.ad-menu li a:hover {
+    opacity: 1;
+}
+/*поведение меню при разрешении менее 920 пикселей*/
+@media screen and (max-width: 920px) {
+    .ad-menu li {
+        width: 49.5%;
+    }
+    .menu_right {
+        margin-right: 0px;
+        float: none;
+    }
+}
+/*поведения и структура при экране менее 680 пикселей*/
+@media screen and (max-width: 680px) {
+    .ad-menu li {
+        width: 100%;
+    }
+    .ad-menu ul {
+        display: none;
+    }
+    .menu_right {
+        margin-right: 0px;
+        float: none;
+    }
+    .ad-menu nav::before,
+    .ad-menu::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAwCAMAAAA8VkqRAAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAAE5JREFUeAFjwAkYcQC6SFAKBt4fo/6AaMMUQTUQIYJpFaqrMIICzkATR2Hi5uDUjmkh7tDAHUq4Qw8ujl+CsFEEHDVowg1n1OJKDLiTDwBLrgJ9vkuXOwAAAABJRU5ErkJggg==);
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+    }
+    .ad-menu nav::before,
+    .ad-menu::after {
+        background-color: #fc0;
+        border: 9px solid #fc0;
+    }
+    .ad-menu::after {
+        background-position: -24px -24px;
+        z-index: 1;
+    }
+    .ad-menu nav::before {
+        z-index: 2;
+    }
+    .ad-menu nav:focus::before {
+        z-index: 0;
+    }
+    .ad-menu nav:focus ul,
+    .ad-menu ul:hover { /*решаем проблему со скликиванием*/
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 viewBox="0 0 1058 1058" style="enable-background:new 0 0 1058 1058;" xml:space="preserve">
+ <defs>
+  <style type="text/css">
+    .fil0 {fill:#fff;fill-rule:evenodd;}
+  </style>
+ </defs>
+ <path class="fil0" d="M529 1023c168,-168 406,-393 406,-617 0,-224 -182,-406 -406,-406 -224,0 -406,182 -406,406 0,224 247,459 406,617zm0 -353c146,0 265,-118 265,-265 0,-146 -118,-265 -265,-265 -146,0 -265,118 -265,265 0,146 118,265 265,265z"/>
+ <circle class="fil0" cx="529" cy="406" r="141"/>
+</svg>

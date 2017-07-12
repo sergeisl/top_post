@@ -1,0 +1,54 @@
+<?
+if (empty($_POST['tovar_id']) || (!User::is_login() && empty($_POST['mail']))) {
+    Out::Location('/kupit');
+}
+
+$tovar_id = intval(get_key($_POST, 'tovar_id', 0));
+$kol = intval(get_key($_POST, 'count', 1));
+
+if( !User::is_login() ){
+    User::register($_POST);
+    if(!empty($_SESSION['error']))Out::Location('/kupit');
+}
+Basket::Add($tovar_id, $kol);
+
+?>
+<section class="row row4" id="kupit">
+    <div class="container clearfix">
+        <div class="col-sm-12 col-md-12 clearfix">
+            <h3>Выберите способ получения</h3>
+            <form method="post" action="/kupit/success" class="delivery order clearfix" name="order" class="order clearfix">
+
+                <? $shops = DB::Select2Array( 'shop', " 1 ORDER BY address=''" ); ?>
+                <ul class="clearfix">
+                    <? foreach($shops as $i => $it) { $checked = $i==0; ?>
+                    <li class="colored_li">
+                        <label>
+                            <input type="radio" name="shop" value="<?=$it['id']?>" <?=$checked?' checked':''?>>
+                            <b><?=$it['name']?></b>
+                            <? if (!empty($it['address'])) { ?>
+                                (<?=$it['address']?>)
+                            <? } ?>
+                        </label>
+                        <div class="content" <?=$checked?'':' style="display: none"'?>>
+                            <? if ($it['id']==1) { /* если это почта россии то заполняем форму */ ?>
+                                <input type="text" name="name" placeholder="Имя и Отчество" />
+                                <input type="text" name="surname" placeholder="Фамилия" />
+                                <input type="text" name="country" placeholder="Страна" value="Россия">
+                                <input type="text" name="obl" placeholder="Область" />
+                                <input type="text" name="city" placeholder="Город" />
+                                <input type="text" name="address" placeholder="Адрес" />
+                                <input type="text" name="index" placeholder="Почтовый индекс" />
+                                <a href="http://www.russianpost.ru/rp/servise/ru/home/postuslug/searchops">Как узнать свой индекс</a>
+                            <? } else { ?>
+                            <?=$it['content']?>
+                            <? } ?>
+                        </div>
+                    </li>
+                    <? } ?>
+                </ul>
+                <input class="button button2" type="submit" value="Заказать">
+            </form>
+        </div>
+    </div>
+</section>

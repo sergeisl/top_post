@@ -1,0 +1,32 @@
+<section class="row row4">
+    <div class="container clearfix">
+        <div class="col-sm-12 col-md-12">
+            <h3>ОФОРМИТЕ ЗАКАЗ</h3>
+            <div>Закажите сок чистотела прямо на сайте</div>
+            <form name="order" action="/kupit/delivery" method="post" class="order clearfix">
+                <p></p>
+                <?$redonly = User::is_login() ? 'readonly' : ''?>
+                <input name="fullname" type="text" placeholder="Ваше имя" value="<?=User::fullname()?>" required <?=$redonly?>>
+                <input name="mail" type="text" placeholder="Email" value="<?=User::mail()?>" required <?=$redonly?>>
+                <input name="tel" type="tel" placeholder="Телефон" value="<?=User::tel()?>" required <?=$redonly?>>
+                <? $tovars = DB::Select2Array('tovar', '1 ORDER BY price'); ?>
+                <select name="tovar_id" required id="price">
+                    <option value="-1" disabled selected>Объем</option>
+                    <? $last = $cur = 0;
+                    foreach ($tovars as $it) {
+                        $cur = $it['price'] / $it['kol']; ?>
+                        <option
+                            data-price="<?= $it['price'] ?>" <?= !empty($kol) && $kol == round($it['kol'], 2) ? ' selected' : '' ?>
+                            value="<?= $it['id'] ?>"><?= round($it['kol'], 2) ?> <?= $it['ed'] ?><?= $last > 0 ? " выгоднее на " . ($it['kol'] * $last - $it['price']) . ' руб' : '' ?></option>
+                        <? $last = $cur;
+                    } ?>
+                </select>
+                <input name="count" id="count" type="text" value="1" placeholder="Кол-во" required>
+                <p>
+                    Стоимость: <span id="amount">формируется в зависимости<br>от объема</span>
+                </p>
+                <input class="button button2" type="submit" value="Заказать">
+            </form>
+        </div>
+    </div>
+</section>

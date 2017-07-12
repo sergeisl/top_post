@@ -1,0 +1,432 @@
+09.07.2017 14:48
+
+
+09.07.2017 14:48
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\include\class\zakaz.php, строка 22.
+<br>
+21:         }
+<br>
+22:         $this-&gt;zakaz2=DB::Select2Array("zakaz2","zakaz=".$this-&gt;zakaz['id']);
+<br>
+23:     }
+Запрос: /user/zakaz.php.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort.
+Текст ошибки: <i>Undefined index: id</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/aadc92614da872d68a5ff2711f8a28a1.htm'>Переменные</a>
+
+
+url=/user/zakaz.php, referer=http://top.dev/user/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+).<br>
+
+09.07.2017 14:48
+09.07.2017 14:48
+Запрос:
+SELECT * FROM zakaz2 WHERE zakaz=
+
+info:
+error:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',
+    'line' => 226,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'Select2Array',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+)
+
+
+
+url=/user/zakaz.php, referer=http://top.dev/user/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',
+    'line' => 107,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',
+    'line' => 226,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'Select2Array',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  6 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+).<br>
+
+09.07.2017 14:49
+
+
+09.07.2017 14:49
+Произошла ошибка с кодом <b>2</b> Предупреждение!
+Файл: C:\OpenServer\domains\top_post\adm\zakaz.php, строка 5.
+<br>
+4: include_once $_SERVER['DOCUMENT_ROOT'] . "/include/config.php";
+<br>
+5: include_once $_SERVER['DOCUMENT_ROOT']."/price/zakaz.inc.php";
+<br>
+6: 
+Запрос: /adm/zakaz.php.<br>
+SQL-Запрос: SELECT * FROM config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1.
+Текст ошибки: <i>include_once(C:/OpenServer/domains/top_post/price/zakaz.inc.php): failed to open stream: No such file or directory</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'include_once',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/aadc92614da872d68a5ff2711f8a28a1.htm'>Переменные</a>
+
+
+url=/adm/zakaz.php, referer=http://top.dev/adm/sprav.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'include_once',
+  ),
+).<br>
+
+09.07.2017 14:49
+
+
+09.07.2017 14:49
+Произошла ошибка с кодом <b>2</b> Предупреждение!
+Файл: C:\OpenServer\domains\top_post\adm\zakaz.php, строка 5.
+<br>
+4: include_once $_SERVER['DOCUMENT_ROOT'] . "/include/config.php";
+<br>
+5: include_once $_SERVER['DOCUMENT_ROOT']."/price/zakaz.inc.php";
+<br>
+6: 
+Запрос: /adm/zakaz.php.<br>
+SQL-Запрос: SELECT * FROM config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1.
+Текст ошибки: <i>include_once(): Failed opening 'C:/OpenServer/domains/top_post/price/zakaz.inc.php' for inclusion (include_path='.;c:/openserver/modules/php/PHP-5.6-x64;c:/openserver/modules/php/PHP-5.6-x64/PEAR/pear')</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'include_once',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/aadc92614da872d68a5ff2711f8a28a1.htm'>Переменные</a>
+
+
+url=/adm/zakaz.php, referer=http://top.dev/adm/sprav.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\zakaz.php',
+    'line' => 5,
+    'function' => 'include_once',
+  ),
+).<br>
+
+09.07.2017 14:52
+
+
+09.07.2017 14:52
+Произошла ошибка с кодом <b>2</b> Предупреждение!
+Файл: C:\OpenServer\domains\top_post\shop\api.php, строка 4.
+<br>
+3: <br>
+4: include_once($_SERVER['DOCUMENT_ROOT'].'/include/class/user.php');
+<br>
+5: 
+Запрос: /shop/api.php.<br>
+SQL-Запрос: SELECT * FROM config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1.
+Текст ошибки: <i>include_once(C:/OpenServer/domains/top_post/include/class/user.php): failed to open stream: No such file or directory</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'include_once',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/aadc92614da872d68a5ff2711f8a28a1.htm'>Переменные</a>
+
+
+url=/shop/api.php, referer=http://top.dev/shop/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'include_once',
+  ),
+).<br>
+
+09.07.2017 14:52
+
+
+09.07.2017 14:52
+Произошла ошибка с кодом <b>2</b> Предупреждение!
+Файл: C:\OpenServer\domains\top_post\shop\api.php, строка 4.
+<br>
+3: <br>
+4: include_once($_SERVER['DOCUMENT_ROOT'].'/include/class/user.php');
+<br>
+5: 
+Запрос: /shop/api.php.<br>
+SQL-Запрос: SELECT * FROM config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1.
+Текст ошибки: <i>include_once(): Failed opening 'C:/OpenServer/domains/top_post/include/class/user.php' for inclusion (include_path='.;c:/openserver/modules/php/PHP-5.6-x64;c:/openserver/modules/php/PHP-5.6-x64/PEAR/pear')</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'include_once',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/aadc92614da872d68a5ff2711f8a28a1.htm'>Переменные</a>
+
+
+url=/shop/api.php, referer=http://top.dev/shop/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'include_once',
+  ),
+).<br>
+

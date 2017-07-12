@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="31px" height="31px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 710 710" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+    .str0 {stroke:#E0E1EA;stroke-width:10}
+    .fil0 {fill:none}
+  </style>
+ </defs>
+   <polyline class="fil0 str0" points="355,0 355,355 0,355 "/>
+   <polyline class="fil0 str0" points="0,355 355,355 355,710 "/>
+   <polyline class="fil0 str0" points="710,355 355,355 355,0 "/>
+   <polyline class="fil0 str0" points="355,710 355,355 710,355 "/>
+</svg>

@@ -1,0 +1,58 @@
+<html><body>
+
+07.07.2017 15:00
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\test\include\class\zakaz.php, строка 22.
+<br>
+21:         }
+<br>
+22:         $this-&gt;zakaz2=DB::Select2Array("zakaz2","zakaz=".$this-&gt;zakaz['id']);
+<br>
+23:     }
+Запрос: /user/zakaz.php.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort.
+Текст ошибки: <i>Undefined index: id</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+)
+
+
+<br />Переменные:<pre>Array
+(
+    [row] => Array
+        (
+            [user_id] => 2
+        )
+
+)
+</pre>
+</body></html>

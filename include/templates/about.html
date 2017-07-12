@@ -1,0 +1,19 @@
+<div class="hidden-sm hidden-xs">
+<?=echoBlock('head')?>
+</div>
+<section>
+    <div class="container clearfix">
+        <h1>Сертификаты</h1>
+        <p>Вся продукция имеет необходимые сертификаты:</p>
+        <? foreach($data['imgs'] as $it) { ?>
+        <div class="col-sm-4">
+            <a href="<?=$it?>">
+                <img src="<?=$it?>" alt="" style="width: 100%;">
+            </a>
+        </div>
+        <? } ?>
+    </div>
+
+</section>
+<?=echoBlock('tovar_list')?>
+<?=echoBlock('contacts')?>

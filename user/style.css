@@ -1,0 +1,318 @@
+/* ----- Вход ----- */
+.b-login {
+    margin: 0 auto;
+    max-width: 460px;
+    width: 100%;
+}
+.soc-net {
+    float: right;
+    padding-top: 1rem;
+    text-align: center;
+    position: relative;
+}
+.soc-net a {
+    display: block;
+    height: 4rem;
+    margin: 0.85rem auto 0;
+    width: 4rem;
+    cursor: pointer;
+    text-decoration: none!important;
+    border-bottom-style: none!important;
+}
+h3 .icon-vk,
+h3 .icon-facebook {
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+.icon-vk {
+    background: url(/images/svg/vk.svg) no-repeat center center;
+}
+.icon-facebook {
+    background: url(/images/svg/facebook.svg) no-repeat center center;
+}
+.user .icon-facebook::before,
+.user .icon-vk::before{
+    content:normal; /*убираю чужое*/
+}
+.one-click {
+    position: absolute;
+    top: -4.5rem;
+    right: 1rem;
+    background: url("/images/one-click.png") no-repeat 0 0;
+    width: 335px;
+    height: 58px;
+}
+/* ----- Формы -----*/
+.user {
+    width: 100%;
+    max-width: 460px;
+}
+.fb-win .user {
+    width: auto;
+}
+.auth-form {
+    float: left;
+    margin-top: 0.8rem;
+    text-align: center;
+    width: 380px;
+}
+.user form p a {
+    border-bottom: 1px dotted #a81214;
+    color: #a81214;
+    text-decoration: none;
+}
+.user form a.auth-link {
+    border-bottom: 1px dotted #90b11f;
+    color: #90b11f;
+    text-decoration: none;
+}
+.user form a:hover,
+.user form a:focus,
+.user form a:active {
+    text-decoration: none;
+    border-bottom-style: solid;
+}
+.user a.auth-link {
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+.user label {
+    display: block;
+    font-size: 1.5rem;
+    color: #666;
+    width: 100%;
+}
+.user label.login,
+.user label.password,
+.user label.check {
+    padding: 0.8rem 0;
+}
+.user label.check {
+/*    display: inline-block;*/
+    vertical-align: middle;
+    width: auto;
+}
+.user label[for] {
+    padding-top: 2rem;
+}
+.user label[for="name"] {
+    padding-top: 0;
+}
+.user label[for="tel"] {
+    margin-bottom: 0.4rem;
+}
+.user input[type="text"],
+.user input[type="email"],
+.user input[type="number"],
+.user input[type="float"],
+.user input[type="tel"],
+.user input[type="file"],
+.user input[type="password"],
+.user select,
+.user textarea {
+    border: 1px solid #ccc;
+    color: #39365a;
+    /*display: block;*/
+    font-family: Tahoma,Arial,sans-serif;
+    font-size: 1.6rem;
+    margin-top: 0.4rem;
+    /*max-width: 460px;*/
+    padding: 0.8rem;
+    width: 100%/* !important*/;
+}
+.user textarea {
+    max-width: 100%;
+    height: 15rem;
+}
+.user option {
+    padding-left: 0.8rem;
+}
+.user input[placeholder] {
+    margin: 0;
+}
+.user input[type="file"] {
+    margin-bottom: 1.6rem;
+}
+.user input[name="name"],
+.user label[for="name"] {
+    max-width: 460px;
+}
+/* ----- Убираем стрелочки -----*/
+.user input[type="number"] {
+    -moz-appearance:textfield;
+}
+.user input::-webkit-inner-spin-button,
+.user input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.password {
+    position: relative;
+    width: 100%;
+/*    max-width: 460px;*/
+}
+.eye {
+    background: url('/images/svg/show_gray.svg') no-repeat left center;
+    cursor: pointer;
+    position: absolute;
+    right: 0.8rem;
+    top: 1.2rem;
+    display: block;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+label.password .eye {
+    top: 1.2rem;
+}
+div.password .eye {
+    top: 0.8rem;
+}
+.eye.hidden {
+    background: url('/images/svg/hide_gray.svg') no-repeat left center;
+}
+.auth-form hr {
+    margin: 1rem 0;
+    background-color: #39365a;
+    border: medium none;
+    height: 1px;
+    width: 100%;
+}
+/* кнопки */
+.btn.green,
+.btn.red,
+.fb-win1 input[type="reset"],
+.fb-win1 input[type="submit"] {
+    border: medium none !important;
+    color: #fff !important;
+    cursor: pointer;
+    display: block;
+    font: 2rem Tahoma,Arial,sans-serif;
+    height: 5rem;
+    margin: 8px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+.btn.green,
+.fb-win1 input[type="submit"] {
+    background-color: #90b11f;
+}
+.btn.red,
+.fb-win1 input[type="submit"].red,
+.fb-win1 input[type="reset"] {
+    background-color: #eb4444;
+}
+.btn.green:hover,
+.btn.green:focus,
+.btn.green:active,
+.fb-win1 input[type="submit"]:hover,
+.fb-win1 input[type="submit"]:focus,
+.fb-win1 input[type="submit"]:active {
+    background-color: #87a81f;
+}
+a.btn,
+a.btn:hover,
+a.btn:focus,
+a.btn:active{
+    text-decoration: none;
+    padding: 10px;
+}
+.btn.red,
+.fb-win1 input[type="reset"].red:hover,
+.fb-win1 input[type="reset"].red:focus,
+.fb-win1 input[type="reset"].red:active,
+.fb-win1 input[type="submit"]:not(.green):hover,
+.fb-win1 input[type="submit"]:not(.green):focus,
+.fb-win1 input[type="submit"]:not(.green):active {
+    background-color: #a81214;
+}
+.fb-win1 input[type="reset"],
+.fb-win1 input[type="submit"] {
+    display: inline-block;
+    width: 200px;
+}
+label + .g-recaptcha {
+    padding: 8px 0;
+}
+input[type="text"] + .g-recaptcha {
+    padding: 16px 0 8px;
+}
+input[type="file"] + .g-recaptcha {
+    padding: 0 0 8px;
+}
+.user a.change-avatar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+}
+legend {
+    font-size: 1.2rem;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+fieldset {
+    margin-top: 1.6rem;
+    padding: 0 1rem 1rem;
+}
+label.check {
+    padding-top: 1rem;
+}
+span.is-info {
+    font-size: 1.3rem;
+}
+.g-recaptcha {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 799px), screen and (max-device-width: 799px) {
+    .soc-net,
+    .auth-form {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .soc-net a {
+        display: inline-block;
+        margin: 0;
+    }
+    .one-click {
+        position: relative;
+        right: auto;
+        top: 1rem;
+        width: 240px;
+        display: inline-block;
+    }
+    .auth-form {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 719px), only screen and (max-device-width: 719px) {
+    .user {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 390px), screen and (max-device-width: 390px) {
+    .btn {
+        width: 100%;
+    }
+    .one-click {
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 360px), screen and (max-device-width: 360px) {
+    .btn {
+        width: 100%;
+    }
+}

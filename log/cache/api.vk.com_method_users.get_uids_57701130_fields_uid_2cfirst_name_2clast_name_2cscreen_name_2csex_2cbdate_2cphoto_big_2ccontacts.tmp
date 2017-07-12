@@ -1,0 +1,15 @@
+{"url":"https:\/\/api.vk.com\/method\/users.get?uids=57701130&fields=uid%2Cfirst_name%2Clast_name%2Cscreen_name%2Csex%2Cbdate%2Cphoto_big%2Ccontacts&access_token=0c4eea7b44e32ad25d0d277aef9acc45c91684303327e6614df3aa43229333421b28123894029544442eb","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":258,"request_size":765,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.453,"namelookup_time":0.062,"connect_time":0.093,"pretransfer_time":0.375,"size_upload":0,"size_download":223,"speed_download":492,"speed_upload":0,"download_content_length":223,"upload_content_length":-1,"starttransfer_time":0.453,"redirect_time":0,"redirect_url":"","primary_ip":"95.213.11.139","certinfo":[],"primary_port":443,"local_ip":"192.168.0.21","local_port":3528,"cache_filename":"C:\/OpenServer\/domains\/test\/log\/cache\/api.vk.com_method_users.get_uids_57701130_fields_uid_2cfirst_name_2clast_name_2cscreen_name_2csex_2cbdate_2cphoto_big_2ccontacts.tmp","cache":720,"redirect_info":"","charset":"utf-8"}
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 07 Jul 2017 11:15:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 223
+Connection: keep-alive
+X-Powered-By: PHP/3.13150
+Pragma: no-cache
+Cache-control: no-store
+Content-Encoding: gzip
+
+
+{"response":[{"uid":57701130,"first_name":"Сергей","last_name":"Сажин","sex":2,"screen_name":"sergei_sazhin","bdate":"2.3.1996","photo_big":"https:\/\/pp.userapi.com\/c416521\/v416521130\/1700\/maPOcq4YiAQ.jpg","home_phone":"123"}]}

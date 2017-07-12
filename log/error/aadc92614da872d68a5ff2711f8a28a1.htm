@@ -1,0 +1,178 @@
+<html><body>
+
+09.07.2017 14:52
+Произошла ошибка с кодом <b>2</b> Предупреждение!
+Файл: C:\OpenServer\domains\top_post\shop\api.php, строка 4.
+<br>
+3: <br>
+4: include_once($_SERVER['DOCUMENT_ROOT'].'/include/class/user.php');
+<br>
+5: 
+Запрос: /shop/api.php.<br>
+SQL-Запрос: SELECT * FROM config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1.
+Текст ошибки: <i>include_once(): Failed opening 'C:/OpenServer/domains/top_post/include/class/user.php' for inclusion (include_path='.;c:/openserver/modules/php/PHP-5.6-x64;c:/openserver/modules/php/PHP-5.6-x64/PEAR/pear')</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\shop\\api.php',
+    'line' => 4,
+    'function' => 'include_once',
+  ),
+)
+
+
+<br />Переменные:<pre>Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+            [PHPSESSID] => aadc92614da872d68a5ff2711f8a28a1
+            [name] => sergei.s.l
+            [hash] => 94199d8c88f56c0abc11e0e0cafe160d
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => top.dev
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.1.749 Yowser/2.5 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+            [HTTP_REFERER] => http://top.dev/shop/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+            [HTTP_ACCEPT_LANGUAGE] => ru,en;q=0.8,la;q=0.6
+            [HTTP_COOKIE] => PHPSESSID=aadc92614da872d68a5ff2711f8a28a1; name=sergei.s.l; hash=94199d8c88f56c0abc11e0e0cafe160d
+            [PATH] => c:\openserver\modules\php\PHP-5.6-x64\ext;c:\openserver\modules\php\PHP-5.6-x64\pear;c:\openserver\modules\php\PHP-5.6-x64\pear\bin;c:\openserver\modules\php\PHP-5.6-x64;c:\openserver\modules\wget\bin;c:\openserver\modules\database\MySQL-5.6-x64\bin;c:\openserver\modules\http\Apache-2.4-x64\bin;c:\openserver\modules\http\Apache-2.4-x64;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache
+            [SERVER_NAME] => top.dev
+            [SERVER_ADDR] => 127.0.0.1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 127.0.0.1
+            [DOCUMENT_ROOT] => C:/OpenServer/domains/top_post
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/OpenServer/domains/top_post
+            [SERVER_ADMIN] => [no address given]
+            [SCRIPT_FILENAME] => C:/OpenServer/domains/top_post/shop/api.php
+            [REMOTE_PORT] => 33471
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /shop/api.php
+            [SCRIPT_NAME] => /shop/api.php
+            [PHP_SELF] => /shop/api.php
+            [REQUEST_TIME_FLOAT] => 1499601168.939
+            [REQUEST_TIME] => 1499601168
+            [argv] => Array
+                (
+                )
+
+            [argc] => 0
+        )
+
+    [_REQUEST] => Array
+        (
+        )
+
+    [GLOBALS] => Array
+ *RECURSION*
+    [_SESSION] => Array
+        (
+            [session_id] => 1
+            [Last-Modified] => 1499601168
+            [user] => Array
+                (
+                    [id] => 2
+                    [name] => sergei.s.l
+                    [fullname] => Сергей Сажин
+                    [tel] => 
+                    [kart] => 
+                    [sms] => 0
+                    [mail] => sergei.s.l@mail.ru
+                    [rss] => 0
+                    [birthday] => 1996-03-02
+                    [date0] => 2017-07-07
+                    [city] => 0
+                    [address] => 
+                    [adm] => 99
+                    [pass] => 94199d8c88f56c0abc11e0e0cafe160d
+                    [sex] => 2
+                    [discount0] => 
+                    [discount1] => 
+                    [comment] => 
+                    [info] => Array
+                        (
+                            [vk_uid] => 57701130
+                        )
+
+                    [time] => 2017-07-09 12:59:09
+                    [ip] => 2130706433
+                    [uid] => 0
+                    [user_name] => Сергей Сажин
+                )
+
+            [message] => 
+        )
+
+    [http] => http
+    [url] => /shop/api.php
+    [ip] => 127.0.0.1
+    [_cache_pub] => Cache Object
+        (
+            [memcache_obj:Cache:private] => 
+            [type:Cache:private] => file
+            [prefix:Cache:private] => pub
+        )
+
+    [val] => 94199d8c88f56c0abc11e0e0cafe160d
+    [key] => hash
+    [DEBUG] => 1
+    [z_incasso] => Array
+        (
+            [1] => инкассация
+            [2] => закупка хоз.нужд
+            [3] => выплата аванса
+            [4] => выплата з.платы
+            [8] => штраф/недостача
+            [9] => по р/счету
+            [10] => выплата з/п на пластик
+        )
+
+    [_DayOfWeek] => Array
+        (
+            [0] => вс
+            [1] => пн
+            [2] => вт
+            [3] => ср
+            [4] => чт
+            [5] => пт
+            [6] => сб
+        )
+
+    [_user] => 
+)
+</pre>
+</body></html>

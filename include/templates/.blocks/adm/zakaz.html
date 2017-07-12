@@ -1,0 +1,75 @@
+<div class="container clearfix">
+    <h1>Все заказы</h1>
+    <label class='act'><input type="checkbox" name="act" OnChange="window.location='?act=<?=get_key($_GET, 'act', 0) ? 0 : 1?>'" <?=@$_GET['act'] ? ' CHECKED' : ''?>> Скрыть неактуальные</label>
+<? if (empty($zakaz)) { ?>
+    <br><h4>Заказов нет.</h4>
+<? } else { ?>
+
+    <div class="colored-list">
+
+    <? foreach ($zakaz as $row) { ?>
+        <div class="row">
+
+            <div class='col-xs-2'>
+                <span><b><?=time2html($row['time'])?></b></span>
+            </div>
+            <div class='col-xs-10'>
+                <? if (User::is_admin(true)) { ?>
+                    <select style="float:right;width: 200px" onchange="if(confirm('Сменить статус?'))ajaxLoad(this,'?setstatus='+this.options[this.selectedIndex].value+'&id=<?=$row['id']?>');return!1;">
+                        <? foreach (Zakaz::$status_name as $key => $value) { ?>
+                            <option value="<?=$key?>" <?=$row['status'] == $key ? 'selected' : ''?>><?=$value?></option>
+                        <? } ?>
+                    </select>
+                <? } ?>
+                <span class="st<?=$row['status']?>"><?=Zakaz::$status_name[$row['status']]?>
+                    <?= $row['status'] == 3 ? " до " . date('H:i d.m.Y', strtotime($row['time_end'])) : ""?>
+                    <?= $row['status'] == 4 ? " " . date('H:i d.m.Y', strtotime($row['time_pay'])) : ""?>
+                </span>
+                <?=Zakaz::$_forma_name[$row['forma']]?>
+                <?=$row['delivery'] ? ", Доставка" : ""?>
+
+                <? if ($row['status'] == 1) { ?>
+                <a href="?no=<?=$row['id']?>"   title="Отклонить"   onclick="if(confirm('Отклонить?'))  ajaxLoad(this,this.href);return!1;">отклонить</a>,
+                <a href="?yes=<?=$row['id']?>"  title="Подтвердить" onclick="if(confirm('Подтвердить?'))ajaxLoad(this,this.href);return!1;">подтвердить</a>
+                <? } elseif ($row['status'] == 3) { ?>
+                <a href="?long=<?=$row['id']?>" title="Продлить"    onclick="if(confirm('Продлить?'))   ajaxLoad(this,this.href);return!1;">продлить на сутки</a>
+                <? } elseif ($row['status'] == 4) { // оплачен ?>
+                <a href='?id=<?=$row['id']?>&setstatus=5' title="Отгружен" onclick="if(confirm('Отгружен?'))ajaxLoad('',this.href);return!1;">отгружен</a>
+                <? } ?>
+                <br>покупатель: <a href="/user/?id=<?=$row['user']?>"><?= $row['user_name']?></a>
+            </div>
+
+        <? if (!empty($row['comment'])) { ?>
+            <div class="col-xs-10 col-xs-push-2"><i><?=$row['comment']?></i></div>
+        <? } ?>
+            <div>
+                <div class="col-xs-6">Товар</div>
+                <div class="col-xs-2 text-center">Кол-во</div>
+                <div class="col-xs-2 text-center">Цена</div>
+                <div class="col-xs-2"></div>
+            </div>
+        <? $summ=0; foreach ($row['items'] as $i => $it ) { $summ += $it['kol'] * $it['price']; ?>
+            <div id="id<?=$it['id']?>" class="li clearfix">
+                <div class="col-xs-6">
+                    <?=$i+1?>
+                    <a href="<?=$it['tovar_url']?>" target=_blank><?=$it['tovar_name']?></a>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <? if ( !$row['status'] || User::is_admin() ) { ?>
+                    <input value="<?=$it['kol']?>" class="edit" size="3" name="kol" data-tbl="zakaz2" data-id="<?=$it['id']?>" onChange="SendInput(this)" />
+                    <? } else { ?>
+                    <?=$it['kol']?>
+                    <? } ?>
+                </div>
+                <div class="col-xs-2 text-center"><?=$it['price'] ? number_format($it['price'], ($it['price'] == intval($it['price']) ? 0 : 2), '.', ' ') : ''?></div>
+                <div class="col-xs-2">
+                    <a class='icon cart_remove confirm' href="/api.php?tbl=zakaz&del=<?=$it['id']?>" title="Удалить"></a>
+                </div>
+            </div>
+        <? } ?>
+            <div class="col-xs-2 col-xs-push-8  text-center"><?=number_format(($summ + ($row['delivery'] && $summ < delivery_from ? delivery_cost : 0)), ($summ == intval($summ) ? 0 : 2), '.', ' ')?></div>
+        </div>
+    <? } ?>
+    </div>
+<? } ?>
+</div>

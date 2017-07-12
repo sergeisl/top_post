@@ -1,0 +1,909 @@
+
+
+27-04-2017 18:29:51 SQL error report
+27.04.2017 18:29<br />
+27.04.2017 18:29<br />
+Запрос:<br />
+SELECT * FROM db_config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1<br />
+<br />
+info:<br />
+error:Table 'ngx4_thweb.db_config' doesn't exist<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 141,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 176,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\get.php',<br />
+    'line' => 279,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    'line' => 85,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\web\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\adm\\install.php',<br />
+    'line' => 3,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    ),<br />
+    'function' => 'require_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/adm/install.php<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 104,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 141,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 176,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\get.php',<br />
+    'line' => 279,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    'line' => 85,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\web\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\adm\\install.php',<br />
+    'line' => 3,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    ),<br />
+    'function' => 'require_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_27.log'>Все ошибки за день</a><br>
+
+
+28-04-2017 22:08:55 SQL error report
+28.04.2017 22:08<br />
+28.04.2017 22:08<br />
+Запрос:<br />
+SELECT * FROM db_user WHERE email="kdg@htmlweb.ru" LIMIT 1<br />
+<br />
+info:<br />
+error:Unknown column 'email' in 'where clause'<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 177,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 1294,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php(56) : eval()\'d code',<br />
+    'line' => 10,<br />
+    'function' => 'register',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php',<br />
+    'line' => 56,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/kupit/delivery, referer=http://test.htmlweb.dev/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 105,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 177,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 1294,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php(56) : eval()\'d code',<br />
+    'line' => 10,<br />
+    'function' => 'register',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php',<br />
+    'line' => 56,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_28.log'>Все ошибки за день</a><br>
+
+
+28-04-2017 23:50:59 SQL error report
+28.04.2017 23:50<br />
+28.04.2017 23:50<br />
+Запрос:<br />
+SELECT zakaz.time as time, zakaz.user as user, zakaz.user as user, tovar.type as type, zakaz2.kol as kol, zakaz2.tovar as tovar, tovar.name as tovar_name, tovar.ed as ed,<br />
+	(zakaz2.kol*zakaz2.price) AS summ, (tovar.price * zakaz2.kol ) AS s1, ( tovar.price0 * zakaz2.kol ) AS s2, zakaz2.device as device, zakaz2.time as time2<br />
+	FROM db_zakaz as zakaz,db_zakaz2 as zakaz2,db_tovar as tovar<br />
+	WHERE zakaz.id=zakaz2.zakaz and zakaz2.tovar=tovar.id and zakaz.user='6' <br />
+	ORDER BY time, type DESC<br />
+<br />
+info:<br />
+error:Unknown column 'zakaz2.time' in 'field list'<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\class\\zakaz.php',<br />
+    'line' => 255,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\zakaz.php',<br />
+    'line' => 33,<br />
+    'function' => 'ushow',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/user/zakaz.php, referer=http://test.htmlweb.dev/kupit/success<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 105,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\class\\zakaz.php',<br />
+    'line' => 255,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\zakaz.php',<br />
+    'line' => 33,<br />
+    'function' => 'ushow',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_28.log'>Все ошибки за день</a><br>
+
+
+29-04-2017 19:32:48 PHP error report
+29.04.2017 19:32<br />
+<br />
+<br />
+29.04.2017 19:32<br />
+Произошла ошибка с кодом <b>8</b> Замечание!<br />
+Файл: C:\web\common-utf8\class\user.php, строка 748.<br />
+<br><br />
+747:     setcookie("name", $user['name'], time()+60*60*24*30, CookiePath, CookieDomain);<br />
+<br><br />
+748:     setcookie("hash", $user['pass'], time()+60*60*24*30, CookiePath, CookieDomain);<br />
+<br><br />
+749:     //@setcookie("ref", '', time() - 999, CookiePath, CookieDomain); // удаляю реферальное cookie<br />
+Запрос: /user/api.php?vk&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b&expires_in=86398&user_id=5607242&email=kdg%40htmlweb.ru.<br><br />
+SQL-Запрос: UPDATE db_user SET uid=44813268 WHERE id="7" LIMIT 1.<br />
+Текст ошибки: <i>Undefined index: pass</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 748,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 55,<br />
+    'function' => 'login_vk',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.htmlweb.dev/log/error/7723616d5d423f1cb72834787fc65f14.htm'>Переменные</a><br />
+<br />
+<br />
+url=/user/api.php?vk&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b&expires_in=86398&user_id=5607242&email=kdg%40htmlweb.ru<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 468,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 748,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 55,<br />
+    'function' => 'login_vk',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_29.log'>Все ошибки за день</a><br>
+
+
+18-05-2017 10:47:17 PHP error report
+18.05.2017 10:47<br />
+<br />
+<br />
+18.05.2017 10:47<br />
+Произошла ошибка с кодом <b>8</b> Замечание!<br />
+Файл: C:\web\common-utf8\class\user.php, строка 789.<br />
+<br><br />
+788:         $fields=[];<br />
+<br><br />
+789:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш<br />
+<br><br />
+790:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена<br />
+Запрос: /user/api.php?fb&access_token=EAAFgEsSmWZBEBAPPTl03SaJdIR5dufc5fTHzg5UH2gX9bYzgEuI2n0b6XGIvgR6cDc4b3B6MhGZAa3EsA5ZBGKSRNZAQOuTlxcSWcU3BNCgJfarZCxxKZCIjxgEOJHTTtjfC33gVruahKIZBRR1wRtHzvEliegeKoZCLrImLz3f6PAZDZD&token_type=bearer&expires_in=5183999.<br><br />
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.<br />
+Текст ошибки: <i>Undefined index: uid</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 789,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 82,<br />
+    'function' => 'login_fb',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.htmlweb.dev/log/error/4l10bta0bp7dc0ddd8l1ii4ip7.htm'>Переменные</a><br />
+<br />
+<br />
+url=/user/api.php?fb&access_token=EAAFgEsSmWZBEBAPPTl03SaJdIR5dufc5fTHzg5UH2gX9bYzgEuI2n0b6XGIvgR6cDc4b3B6MhGZAa3EsA5ZBGKSRNZAQOuTlxcSWcU3BNCgJfarZCxxKZCIjxgEOJHTTtjfC33gVruahKIZBRR1wRtHzvEliegeKoZCLrImLz3f6PAZDZD&token_type=bearer&expires_in=5183999, referer=http://test.htmlweb.dev/user/signup.php<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 480,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 789,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 82,<br />
+    'function' => 'login_fb',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_05_18.log'>Все ошибки за день</a><br>
+
+
+07-07-2017 14:07:33 SQL error report
+07.07.2017 14:07<br />
+07.07.2017 14:07<br />
+Запрос:<br />
+INSERT INTO `tovar` ( `id`, `seo_url`, `brand`, `name`, `type`, `price`, `price1`, `price2`, `maxdiscount`, `kod_prodact`, `ean`, `description`, `tovar`, `kol`, `srok`, `ost`, `sklad`, `price0`, `ed`, `info`, `collection`, `supplier`, `date_upd`, `vitrina`, `gr`)<br />
+	 VALUES ('1', 'kosmeticheskaja-zhidkost-chistotel', '0', 'Сок чистотела - 50мл', '1', '950', '0.00', '0.00', '0', '', '', '- Очищение лица от герпеса, прыщей, угрей, фурункулов и профилактический уход за кожей лица.', '0', '50', '0', '0', '0', '0.00', 'мл', '', '0', null, '2017-01-01', '0', '1')<br />
+<br />
+info:<br />
+error:Unknown column 'seo_url' in 'field list'<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 144,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 528,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\sprav.php',<br />
+    'line' => 743,<br />
+    'function' => 'insert',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\adm\\install.php',<br />
+    'line' => 578,<br />
+    'function' => 'Download',<br />
+    'class' => 'Sprav',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 54,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\adm\\install.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    'line' => 24,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  9 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    'line' => 119,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  10 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    'line' => 119,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  11 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\config.php',<br />
+    'line' => 92,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  12 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 144,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 528,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\sprav.php',<br />
+    'line' => 743,<br />
+    'function' => 'insert',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\adm\\install.php',<br />
+    'line' => 578,<br />
+    'function' => 'Download',<br />
+    'class' => 'Sprav',<br />
+    'type' => '::',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 54,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\adm\\install.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    'line' => 24,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  9 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  10 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    'line' => 119,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  11 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    'line' => 119,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  12 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\config.php',<br />
+    'line' => 92,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  13 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\test\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\OpenServer\\domains\\test\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.local/log/error/2017_07_07.log'>Все ошибки за день</a><br>
+
+
+09-07-2017 14:48:01 PHP error report
+09.07.2017 14:48<br />
+<br />
+<br />
+09.07.2017 14:48<br />
+Произошла ошибка с кодом <b>8</b> Замечание!<br />
+Файл: C:\OpenServer\domains\top_post\include\class\zakaz.php, строка 22.<br />
+<br><br />
+21:         }<br />
+<br><br />
+22:         $this-&gt;zakaz2=DB::Select2Array("zakaz2","zakaz=".$this-&gt;zakaz['id']);<br />
+<br><br />
+23:     }<br />
+Запрос: /user/zakaz.php.<br><br />
+SQL-Запрос: SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort.<br />
+Текст ошибки: <i>Undefined index: id</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',<br />
+    'line' => 22,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',<br />
+    'line' => 30,<br />
+    'function' => '__construct',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '->',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',<br />
+    'line' => 24,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',<br />
+    'line' => 24,<br />
+    'function' => 'uget',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://top.dev/log/error/aadc92614da872d68a5ff2711f8a28a1.htm'>Переменные</a><br />
+<br />
+<br />
+url=/user/zakaz.php, referer=http://top.dev/user/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',<br />
+    'line' => 480,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',<br />
+    'line' => 22,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\class\\zakaz.php',<br />
+    'line' => 30,<br />
+    'function' => '__construct',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '->',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',<br />
+    'line' => 24,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\user\\zakaz.php',<br />
+    'line' => 24,<br />
+    'function' => 'uget',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://top.dev/log/error/2017_07_09.log'>Все ошибки за день</a><br>
+
+
+11-07-2017 19:45:52 PHP error report
+11.07.2017 19:45<br />
+<br />
+<br />
+11.07.2017 19:45<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: C:\OpenServer\domains\top_post\index.php, строка 38.<br />
+<br><br />
+37:     $data = DB::Select('pages', 'parent=0 and url=""');<br />
+<br><br />
+38:     include_once './getSuppliers.php/';<br />
+<br><br />
+39: }<br />
+Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.<br />
+Текст ошибки: <i>include_once(./getSuppliers.php/): failed to open stream: No such file or directory</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',<br />
+    'line' => 38,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',<br />
+    'line' => 38,<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://top.dev/log/error/5opc2jeq5tlcfmjgpcbdkdqis4.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',<br />
+    'line' => 480,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',<br />
+    'line' => 38,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',<br />
+    'line' => 38,<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://top.dev/log/error/2017_07_11.log'>Все ошибки за день</a><br>
+
+
+12-07-2017 01:26:05 SQL error report
+12.07.2017 01:26<br />
+12.07.2017 01:26<br />
+Запрос:<br />
+SELECT sum(zakaz2.kol) as kol, IF(zakaz2.time<"2016-",device,0) as device, zakaz2.tovar as tovar<br />
+	FROM zakaz2 as zakaz2, zakaz as zakaz, tovar as tovar<br />
+	WHERE zakaz2.zakaz=zakaz.id and zakaz2.tovar=tovar.id and zakaz.time>="2017-07-12" and tovar.type=1 GROUP BY tovar,device<br />
+<br />
+info:<br />
+error:Unknown column 'zakaz2.time' in 'field list'<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 144,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\index.php',<br />
+    'line' => 117,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/adm/, referer=http://top.dev/user/login.php<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 144,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\adm\\index.php',<br />
+    'line' => 117,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://top.dev/log/error/2017_07_12.log'>Все ошибки за день</a><br>

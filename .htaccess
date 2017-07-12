@@ -1,0 +1,22 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} ^(%2d|-)[^=]+$ [NC,OR]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^/?(.*)$ http://%1/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} !^/index\.php
+RewriteRule ^(.*)index.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^G/(.*)$ http://$1 [L]
+RewriteRule ^Gs/(.*)$ https://$1 [L]
+
+ErrorDocument 404 /404.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([A-Z0-9a-z\-_]{4,})/?$ /?arg1=$1 [L,QSA]
+RewriteRule ^([A-Z0-9a-z\-_]{4,})/([A-Z0-9a-z\-_]{4,})/?$ /?arg1=$1&arg2=$2 [L,QSA]
+RewriteRule ^([A-Z0-9a-z\-_]{4,})/([A-Z0-9a-z\-_]{4,})/([A-Z0-9a-z\-_]{4,})/?$ /?arg1=$1&arg2=$2&arg3=$3 [L,QSA]

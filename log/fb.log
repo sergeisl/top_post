@@ -1,0 +1,49 @@
+
+47:10:14http://htmlweb.ru/user/api.php?fb&ret_path=http://test.htmlweb.dev/user/api.php?fb
+47:10:17
+https://graph.facebook.com/me?fields=id%2Cemail%2Cname%2Cgender%2Cfirst_name%2Clast_name&access_token=EAAFgEsSmWZBEBAPPTl03SaJdIR5dufc5fTHzg5UH2gX9bYzgEuI2n0b6XGIvgR6cDc4b3B6MhGZAa3EsA5ZBGKSRNZAQOuTlxcSWcU3BNCgJfarZCxxKZCIjxgEOJHTTtjfC33gVruahKIZBRR1wRtHzvEliegeKoZCLrImLz3f6PAZDZD
+res='{
+   "id": "1491553937552481",
+   "email": "kdg\\u0040htmlweb.ru",
+   "name": "\\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0439 \\u041a\\u043e\\u043b\\u0435\\u0441\\u043d\\u0438\\u043a\\u043e\\u0432",
+   "gender": "male",
+   "first_name": "\\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0439",
+   "last_name": "\\u041a\\u043e\\u043b\\u0435\\u0441\\u043d\\u0438\\u043a\\u043e\\u0432"
+}'
+47:10:17
+
+user=array (
+  'name' => 'Дмитрий Колесников',
+  'gender' => 'male',
+  'first_name' => 'Дмитрий',
+  'last_name' => 'Колесников',
+  'mail' => 'kdg@htmlweb.ru',
+  'fb_uid' => '1491553937552481',
+)
+user1=array (
+  'id' => '7',
+  'name' => 'kdg22',
+  'fullname' => 'Дмитрий Колесников',
+  'tel' => NULL,
+  'kart' => NULL,
+  'sms' => '0',
+  'mail' => 'kdg@htmlweb.ru',
+  'rss' => '0',
+  'birthday' => '1971-01-22',
+  'date0' => '2017-04-29',
+  'city' => '0',
+  'address' => '',
+  'adm' => '1',
+  'pass' => 'd1e49fc2449f4478b043530041944655',
+  'sex' => '2',
+  'discount0' => NULL,
+  'discount1' => NULL,
+  'comment' => '',
+  'info' => '{"vk_uid":"5607242","fb_uid":"1491553937552481"}',
+  'time' => '2017-04-29 23:55:11',
+  'ip' => '2130706433',
+  'uid' => '0',
+)
+fields=array (
+)
+SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1

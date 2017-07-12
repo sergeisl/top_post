@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+  	<meta name="format-detection" content="telephone=no"/>
+	<link rel="stylesheet" href="../css/grid.css">
+	<link rel="stylesheet" href="../css/modal.css">
+</head>
+<body>
+<header>
+	 <div class="container">
+        <ul class="row">
+        	<li class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">1</li>
+        	<li class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">2</li>
+        	<li class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">3</li>
+        	<li class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">4</li>
+        </ul>
+    </div>
+</header>
+ <div class="container">
+            <div class="row">
+                <div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">
+                	123	
+                </div>
+                <div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">
+                	123
+                </div>
+                <div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">
+                	123
+                </div>
+                 <div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">
+                	123
+                </div>
+            </div>
+ </div>
+<div class="modal modal_theme_grey" id="modal__order">
+        <div class="modal__wrapper">
+            <div class="modal__dialog">
+                <div class="modal__close"></div>
+                1234
+            </div>
+        </div>
+	<script>
+		(()=>{
+
+		    'use strict';
+
+		    let modals = document.getElementsByClassName('modal');
+
+		    class Modal {
+
+		        constructor(id) {
+		            this.el = document.getElementById(id);
+		            
+		            let close = this.el.getElementsByClassName('modal__close')[0];
+
+		            close.addEventList ener('click', () => {
+		                this.close();
+		            })
+		        }
+
+		        open() {
+		            this.el.classList.add('modal_visible')
+		        }
+
+		        close() {
+		            this.el.classList.remove('modal_visible')
+		        }
+
+		    }
+
+		    window.Modal = Modal;
+		    
+		})();
+
+	</script>
+        <script>
+        	(()=>{
+
+            let modal_callme = new Modal('modal__order');
+            let btns_callme = document.getElementsByClassName('callme');
+
+            for (var i = btns_callme.length - 1; i >= 0; i--) {
+                btns_callme[i].addEventListener('click', () => {
+                    modal_callme.open();
+                })
+            }
+        })()
+        </script>
+</div>
+
+</body>
+</html>
+                
+
+

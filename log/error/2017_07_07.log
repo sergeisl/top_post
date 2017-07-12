@@ -1,0 +1,839 @@
+07.07.2017 14:07
+07.07.2017 14:07
+Запрос:
+INSERT INTO `tovar` ( `id`, `seo_url`, `brand`, `name`, `type`, `price`, `price1`, `price2`, `maxdiscount`, `kod_prodact`, `ean`, `description`, `tovar`, `kol`, `srok`, `ost`, `sklad`, `price0`, `ed`, `info`, `collection`, `supplier`, `date_upd`, `vitrina`, `gr`)
+	 VALUES ('1', 'kosmeticheskaja-zhidkost-chistotel', '0', 'Сок чистотела - 50мл', '1', '950', '0.00', '0.00', '0', '', '', '- Очищение лица от герпеса, прыщей, угрей, фурункулов и профилактический уход за кожей лица.', '0', '50', '0', '0', '0', '0.00', 'мл', '', '0', null, '2017-01-01', '0', '1')
+
+info:
+error:Unknown column 'seo_url' in 'field list'
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 528,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\sprav.php',
+    'line' => 743,
+    'function' => 'insert',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\adm\\install.php',
+    'line' => 578,
+    'function' => 'Download',
+    'class' => 'Sprav',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 54,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\adm\\install.php',
+    ),
+    'function' => 'include_once',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 20,
+    'function' => 'Connect',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  6 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 24,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    ),
+    'function' => 'include_once',
+  ),
+  7 => 
+  array (
+    'function' => '{closure}',
+  ),
+  8 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\get.php',
+    'line' => 287,
+    'function' => 'spl_autoload_call',
+  ),
+  9 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 119,
+    'function' => '__callStatic',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  10 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 119,
+    'function' => 'DEBUG',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  11 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\config.php',
+    'line' => 92,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    ),
+    'function' => 'include_once',
+  ),
+  12 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\index.php',
+    'line' => 2,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\include\\config.php',
+    ),
+    'function' => 'include_once',
+  ),
+)
+
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 107,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 528,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\sprav.php',
+    'line' => 743,
+    'function' => 'insert',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\adm\\install.php',
+    'line' => 578,
+    'function' => 'Download',
+    'class' => 'Sprav',
+    'type' => '::',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 54,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\adm\\install.php',
+    ),
+    'function' => 'include_once',
+  ),
+  6 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 20,
+    'function' => 'Connect',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  7 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 24,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    ),
+    'function' => 'include_once',
+  ),
+  8 => 
+  array (
+    'function' => '{closure}',
+  ),
+  9 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\get.php',
+    'line' => 287,
+    'function' => 'spl_autoload_call',
+  ),
+  10 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 119,
+    'function' => '__callStatic',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  11 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 119,
+    'function' => 'DEBUG',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  12 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\config.php',
+    'line' => 92,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    ),
+    'function' => 'include_once',
+  ),
+  13 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\index.php',
+    'line' => 2,
+    'args' => 
+    array (
+      0 => 'C:\\OpenServer\\domains\\test\\include\\config.php',
+    ),
+    'function' => 'include_once',
+  ),
+).<br>
+
+07.07.2017 14:15
+
+
+07.07.2017 14:15
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\test\include\common-utf8\class\user.php, строка 761.
+<br>
+760:     setcookie("name", $user['name'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+761:     setcookie("hash", $user['pass'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+762:     //@setcookie("ref", '', time() - 999, CookiePath, CookieDomain); // удаляю реферальное cookie
+Запрос: /user/api.php?vk&access_token=0c4eea7b44e32ad25d0d277aef9acc45c91684303327e6614df3aa43229333421b28123894029544442eb&expires_in=86400&user_id=57701130&email=sergei.s.l%40mail.ru.<br>
+SQL-Запрос: SELECT * FROM config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1.
+Текст ошибки: <i>Undefined index: pass</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\user.php',
+    'line' => 761,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\api.php',
+    'line' => 55,
+    'function' => 'login_vk',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.local/log/error/ghesum82e4tgnfj0e2530kl4m4.htm'>Переменные</a>
+
+
+url=/user/api.php?vk&access_token=0c4eea7b44e32ad25d0d277aef9acc45c91684303327e6614df3aa43229333421b28123894029544442eb&expires_in=86400&user_id=57701130&email=sergei.s.l%40mail.ru
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\user.php',
+    'line' => 761,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\api.php',
+    'line' => 55,
+    'function' => 'login_vk',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+07.07.2017 14:15
+
+
+07.07.2017 14:15
+Произошла ошибка с кодом <b>2</b> Предупреждение!
+Файл: C:\OpenServer\domains\test\include\common-utf8\class\user.php, строка 761.
+<br>
+760:     setcookie("name", $user['name'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+761:     setcookie("hash", $user['pass'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+762:     //@setcookie("ref", '', time() - 999, CookiePath, CookieDomain); // удаляю реферальное cookie
+Запрос: /user/api.php?vk&access_token=0c4eea7b44e32ad25d0d277aef9acc45c91684303327e6614df3aa43229333421b28123894029544442eb&expires_in=86400&user_id=57701130&email=sergei.s.l%40mail.ru.<br>
+SQL-Запрос: SELECT * FROM config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1.
+Текст ошибки: <i>Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\test\include\common-utf8\func.php:461)</i>
+Стек: array (
+  0 => 
+  array (
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\user.php',
+    'line' => 761,
+    'function' => 'setcookie',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\api.php',
+    'line' => 55,
+    'function' => 'login_vk',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.local/log/error/ghesum82e4tgnfj0e2530kl4m4.htm'>Переменные</a>
+
+
+url=/user/api.php?vk&access_token=0c4eea7b44e32ad25d0d277aef9acc45c91684303327e6614df3aa43229333421b28123894029544442eb&expires_in=86400&user_id=57701130&email=sergei.s.l%40mail.ru
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\user.php',
+    'line' => 761,
+    'function' => 'setcookie',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\api.php',
+    'line' => 55,
+    'function' => 'login_vk',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+07.07.2017 14:19
+07.07.2017 14:19
+Запрос:
+SELECT sum(zakaz2.kol) as kol, IF(zakaz2.time<"2016-",device,0) as device, zakaz2.tovar as tovar
+	FROM zakaz2 as zakaz2, zakaz as zakaz, tovar as tovar
+	WHERE zakaz2.zakaz=zakaz.id and zakaz2.tovar=tovar.id and zakaz.time>="2017-07-07" and tovar.type=1 GROUP BY tovar,device
+
+info:
+error:Unknown column 'zakaz2.time' in 'field list'
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\adm\\index.php',
+    'line' => 117,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+)
+
+
+
+url=/adm/, referer=http://test.local/user/login.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 107,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\adm\\index.php',
+    'line' => 117,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+).<br>
+
+07.07.2017 14:55
+
+
+07.07.2017 14:55
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\test\include\class\zakaz.php, строка 22.
+<br>
+21:         }
+<br>
+22:         $this-&gt;zakaz2=DB::Select2Array("zakaz2","zakaz=".$this-&gt;zakaz['id']);
+<br>
+23:     }
+Запрос: /user/zakaz.php.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort.
+Текст ошибки: <i>Undefined index: id</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.local/log/error/ghesum82e4tgnfj0e2530kl4m4.htm'>Переменные</a>
+
+
+url=/user/zakaz.php, referer=http://test.local/contacts
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+).<br>
+
+07.07.2017 14:55
+07.07.2017 14:55
+Запрос:
+SELECT * FROM zakaz2 WHERE zakaz=
+
+info:
+error:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 226,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'Select2Array',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+)
+
+
+
+url=/user/zakaz.php, referer=http://test.local/contacts
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 107,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 226,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'Select2Array',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  6 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+).<br>
+
+07.07.2017 15:00
+
+
+07.07.2017 15:00
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\test\include\class\zakaz.php, строка 22.
+<br>
+21:         }
+<br>
+22:         $this-&gt;zakaz2=DB::Select2Array("zakaz2","zakaz=".$this-&gt;zakaz['id']);
+<br>
+23:     }
+Запрос: /user/zakaz.php.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort.
+Текст ошибки: <i>Undefined index: id</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.local/log/error/ghesum82e4tgnfj0e2530kl4m4.htm'>Переменные</a>
+
+
+url=/user/zakaz.php, referer=http://test.local/contacts
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\func.php',
+    'line' => 480,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+).<br>
+
+07.07.2017 15:00
+07.07.2017 15:00
+Запрос:
+SELECT * FROM zakaz2 WHERE zakaz=
+
+info:
+error:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 226,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'Select2Array',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+)
+
+
+
+url=/user/zakaz.php, referer=http://test.local/contacts
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 107,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 144,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\common-utf8\\class\\db.php',
+    'line' => 226,
+    'function' => 'sql',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 22,
+    'function' => 'Select2Array',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  4 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\include\\class\\zakaz.php',
+    'line' => 30,
+    'function' => '__construct',
+    'class' => 'Zakaz',
+    'type' => '->',
+  ),
+  5 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => '__callStatic',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+  6 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\test\\user\\zakaz.php',
+    'line' => 24,
+    'function' => 'uget',
+    'class' => 'Zakaz',
+    'type' => '::',
+  ),
+).<br>
+

@@ -1,0 +1,19 @@
+<div class="container ptop30">
+    <? if (!empty($page_settings['breadcrumbs'])) { ?>
+    <ul class="breadcrumb" itemtype="http://schema.org/BreadcrumbList" itemscope="">
+        <? foreach ($page_settings['breadcrumbs'] as $i => $bc) { ?>
+        <? if (!empty( $bc['link'])) { ?>
+        <li itemtype="http://schema.org/ListItem" itemscope="" itemprop="itemListElement">
+            <a itemprop="item" href="<?=$bc['link']?>">
+                <span itemprop="name"><?=$bc['text']?></span>
+            </a>
+            <meta itemprop="position" content="<?=$i?>">
+        </li>
+        <? } ?>
+        <? } ?>
+    </ul>
+    <? } ?>
+    <? if (!empty($args['arg1'])) { ?>
+    <h1><?=$page_settings['h1']?></h1>
+    <? } ?>
+</div>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title><?=(empty($title)?'Топ поставщиков':$title)?></title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="<?=(empty($keywords)?'Сок чистотела':$keywords)?>">
+    <meta name="description" content="<?=(empty($description)?'Сок чистотела':$description)?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+
+    <?if(cmp(Get::url(),'/user/')){?>
+        <link rel="stylesheet" href="<?=ImgSrc('/user/style.css')?>" type="text/css">
+        <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+        <link rel="stylesheet" href="/css/slider.css" type="text/css">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Ubuntu:400,400i,500,500i" rel="preload">
+    <?}?>
+    <!--<script type="text/javascript" src="/js.js?v1" async="async"></script>
+    <link rel="stylesheet" href="/style.css" type="text/css">-->
+    <? if (User::is_admin()) { ?>
+        <script type="text/javascript" src="/adm/js.js?v1" async="async"></script>
+        <link rel="stylesheet" href="/adm/style.css" type="text/css">
+    <? } ?>
+
+
+    <? if (!empty($data['keywords'])) { ?>
+        <meta name="keywords" content="<?=$data['keywords']?>">
+        <meta name="news_keywords" content="<?=$data['keywords']?>">
+    <? } ?>
+    <? if (!empty($data['description'])) { ?><meta name="description" content="<?=$data['description']?>"><? } ?>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><?=$data['title']?></title>
+</head>
+<body>
+<header class="header">
+    <div class="menu">
+        <?=echoBlock('menu')?>
+    </div>
+</header>
+<div class="wrapper">

@@ -1,0 +1,77 @@
+<html><body>
+
+18.05.2017 10:47
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 789.
+<br>
+788:         $fields=[];
+<br>
+789:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш
+<br>
+790:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена
+Запрос: /user/api.php?fb&access_token=EAAFgEsSmWZBEBAPPTl03SaJdIR5dufc5fTHzg5UH2gX9bYzgEuI2n0b6XGIvgR6cDc4b3B6MhGZAa3EsA5ZBGKSRNZAQOuTlxcSWcU3BNCgJfarZCxxKZCIjxgEOJHTTtjfC33gVruahKIZBRR1wRtHzvEliegeKoZCLrImLz3f6PAZDZD&token_type=bearer&expires_in=5183999.<br>
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.
+Текст ошибки: <i>Undefined index: uid</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 789,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 82,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+
+<br />Переменные:<pre>Array
+(
+    [user] => Array
+        (
+            [name] => Дмитрий Колесников
+            [gender] => male
+            [first_name] => Дмитрий
+            [last_name] => Колесников
+            [mail] => kdg@htmlweb.ru
+            [fb_uid] => 1491553937552481
+        )
+
+    [user1] => Array
+        (
+            [id] => 7
+            [name] => kdg22
+            [fullname] => Дмитрий Колесников
+            [tel] => 
+            [kart] => 
+            [sms] => 0
+            [mail] => kdg@htmlweb.ru
+            [rss] => 0
+            [birthday] => 1971-01-22
+            [date0] => 2017-04-29
+            [city] => 0
+            [address] => 
+            [adm] => 1
+            [pass] => d1e49fc2449f4478b043530041944655
+            [sex] => 2
+            [discount0] => 
+            [discount1] => 
+            [comment] => 
+            [info] => {"vk_uid":"5607242","fb_uid":"1491553937552481"}
+            [time] => 2017-04-29 23:55:11
+            [ip] => 2130706433
+            [uid] => 0
+        )
+
+    [fields] => Array
+        (
+        )
+
+)
+</pre>
+</body></html>

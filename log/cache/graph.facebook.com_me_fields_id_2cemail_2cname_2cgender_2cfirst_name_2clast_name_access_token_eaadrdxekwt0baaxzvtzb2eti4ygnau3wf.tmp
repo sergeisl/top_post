@@ -1,0 +1,28 @@
+{"url":"https:\/\/graph.facebook.com\/me?fields=id%2Cemail%2Cname%2Cgender%2Cfirst_name%2Clast_name&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD","content_type":"application\/json; charset=UTF-8","http_code":200,"header_size":574,"request_size":757,"filetime":-1,"ssl_verify_result":20,"redirect_count":0,"total_time":0.5,"namelookup_time":0.063,"connect_time":0.125,"pretransfer_time":0.25,"size_upload":0,"size_download":161,"speed_download":322,"speed_upload":0,"download_content_length":161,"upload_content_length":-1,"starttransfer_time":0.5,"redirect_time":0,"certinfo":[],"primary_ip":"31.13.93.3","primary_port":443,"local_ip":"192.168.0.99","local_port":58873,"redirect_url":"","cache_filename":"Z:\/home\/htmlweb.dev\/test\/log\/cache\/graph.facebook.com_me_fields_id_2cemail_2cname_2cgender_2cfirst_name_2clast_name_access_token_eaadrdxekwt0baaxzvtzb2eti4ygnau3wf.tmp","cache":720,"redirect_info":"","charset":"utf-8"}
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+ETag: "efe92d1ce3fad189da68cc43a75850e77c9fac90"
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+x-fb-rev: 2990265
+Content-Type: application/json; charset=UTF-8
+x-fb-trace-id: G0aD7Zxwe0J
+facebook-api-version: v2.8
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-FB-Debug: mBttFhPBRv0xicUkfykBaduAZytZn8n684tHE39Do140mupjtaQMzVb9SSZz1xcwTWssd+MkHgNmWdCJ0NFCXA==
+Date: Sat, 29 Apr 2017 19:09:08 GMT
+Connection: keep-alive
+Content-Length: 161
+
+
+{
+   "id": "1441330855908123",
+   "email": "kdg\u0040htmlweb.ru",
+   "name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u041a\u043e\u043b\u0435\u0441\u043d\u0438\u043a\u043e\u0432",
+   "gender": "male",
+   "first_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+   "last_name": "\u041a\u043e\u043b\u0435\u0441\u043d\u0438\u043a\u043e\u0432"
+}

@@ -1,0 +1,16 @@
+{"url":"https:\/\/api.vk.com\/method\/users.get?uids=5607242&fields=uid%2Cfirst_name%2Clast_name%2Cscreen_name%2Csex%2Cbdate%2Cphoto_big%2Ccontacts&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":347,"request_size":673,"filetime":-1,"ssl_verify_result":19,"redirect_count":0,"total_time":0.297,"namelookup_time":0.063,"connect_time":0.109,"pretransfer_time":0.219,"size_upload":0,"size_download":218,"speed_download":734,"speed_upload":0,"download_content_length":218,"upload_content_length":-1,"starttransfer_time":0.297,"redirect_time":0,"certinfo":[],"primary_ip":"87.240.165.81","primary_port":443,"local_ip":"192.168.0.99","local_port":58369,"redirect_url":"","cache_filename":"Z:\/home\/htmlweb.dev\/test\/log\/cache\/api.vk.com_method_users.get_uids_5607242_fields_uid_2cfirst_name_2clast_name_2cscreen_name_2csex_2cbdate_2cphoto_big_2ccontacts_.tmp","cache":720,"redirect_info":"","charset":"utf-8"}
+
+HTTP/1.1 200 OK
+Server: Apache
+Date: Sat, 29 Apr 2017 16:32:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 218
+Connection: keep-alive
+X-Powered-By: PHP/3.12669
+Set-Cookie: remixlang=0; expires=Wed, 09 May 2018 21:40:18 GMT; path=/; domain=.vk.com
+Pragma: no-cache
+Cache-control: no-store
+Content-Encoding: gzip
+
+
+{"response":[{"uid":5607242,"first_name":"Дмитрий","last_name":"Колесников","sex":2,"screen_name":"kdg22","bdate":"22.1.1971","photo_big":"https:\/\/pp.userapi.com\/c10004\/u5607242\/a_3793e787.jpg","home_phone":"2758077"}]}

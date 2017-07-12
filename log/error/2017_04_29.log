@@ -1,0 +1,420 @@
+29.04.2017 19:32
+
+
+29.04.2017 19:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 748.
+<br>
+747:     setcookie("name", $user['name'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+748:     setcookie("hash", $user['pass'], time()+60*60*24*30, CookiePath, CookieDomain);
+<br>
+749:     //@setcookie("ref", '', time() - 999, CookiePath, CookieDomain); // удаляю реферальное cookie
+Запрос: /user/api.php?vk&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b&expires_in=86398&user_id=5607242&email=kdg%40htmlweb.ru.<br>
+SQL-Запрос: UPDATE db_user SET uid=44813268 WHERE id="7" LIMIT 1.
+Текст ошибки: <i>Undefined index: pass</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 748,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 55,
+    'function' => 'login_vk',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.htmlweb.dev/log/error/7723616d5d423f1cb72834787fc65f14.htm'>Переменные</a>
+
+
+url=/user/api.php?vk&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b&expires_in=86398&user_id=5607242&email=kdg%40htmlweb.ru
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\func.php',
+    'line' => 468,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 748,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 55,
+    'function' => 'login_vk',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+29.04.2017 22:09
+
+
+29.04.2017 22:09
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 786.
+<br>
+785:         $fields=[];
+<br>
+786:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш
+<br>
+787:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена
+Запрос: /user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224.<br>
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.
+Текст ошибки: <i>Undefined index: uid</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.htmlweb.dev/log/error/42a7f1204464ae0139eee008491ddd64.htm'>Переменные</a>
+
+
+url=/user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224, referer=http://test.htmlweb.dev/user/signup.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\func.php',
+    'line' => 468,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+29.04.2017 22:09
+
+
+29.04.2017 22:09
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 786.
+<br>
+785:         $fields=[];
+<br>
+786:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш
+<br>
+787:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена
+Запрос: /user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224.<br>
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.
+Текст ошибки: <i>Undefined index: uid</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.htmlweb.dev/log/error/2979102c451d8d0c55a5c28587247bb5.htm'>Переменные</a>
+
+
+url=/user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224, referer=http://test.htmlweb.dev/user/login.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\func.php',
+    'line' => 468,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+29.04.2017 22:10
+
+
+29.04.2017 22:10
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 786.
+<br>
+785:         $fields=[];
+<br>
+786:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш
+<br>
+787:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена
+Запрос: /user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224.<br>
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.
+Текст ошибки: <i>Undefined index: uid</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.htmlweb.dev/log/error/59d9bfb24831222b0863f64192103eb0.htm'>Переменные</a>
+
+
+url=/user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224, referer=http://test.htmlweb.dev/user/login.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\func.php',
+    'line' => 468,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+29.04.2017 22:11
+
+
+29.04.2017 22:11
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 786.
+<br>
+785:         $fields=[];
+<br>
+786:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш
+<br>
+787:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена
+Запрос: /user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224.<br>
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.
+Текст ошибки: <i>Undefined index: uid</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.htmlweb.dev/log/error/273aaee14cb603eac34d2d20e4a1bafd.htm'>Переменные</a>
+
+
+url=/user/api.php?fb&access_token=EAADrdxEkWT0BAAXzvTZB2etI4YGnAU3WFzSFMw5Ci7QJzfBp7s3XszDtRPOBYmTR3bKcJUvqV61omCE6FWT0SWKMLYsTk7hHvZAGAgJcqnhcoeZByhr8hc3KgmgjpMijcb77zaeBzJsGqMJx5sTmbBqxKjJozULT6YVP99B2AZDZD&token_type=bearer&expires_in=5182224, referer=http://test.htmlweb.dev/user/login.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\func.php',
+    'line' => 468,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+29.04.2017 23:34
+
+
+29.04.2017 23:34
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 786.
+<br>
+785:         $fields=[];
+<br>
+786:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш
+<br>
+787:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена
+Запрос: /user/api.php?fb&access_token=EAAFgEsSmWZBEBADE0nN8AOAvamfDVEErHljO1yhhNAZCec4yuA5hHOo4SvbdTOC72yQUZAOKraARuDFFW2gjlqrjrZBrSFZC2HvYEvtI9jQYxOIrSZBAPAmUgdUj0QuKF80iT5GddUqSOikzTqdRouWMe2JunpNmzx8raYIfMJDgZDZD&token_type=bearer&expires_in=5183999.<br>
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.
+Текст ошибки: <i>Undefined index: uid</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.htmlweb.dev/log/error/f17f89e20b9732a2f78d08533237b040.htm'>Переменные</a>
+
+
+url=/user/api.php?fb&access_token=EAAFgEsSmWZBEBADE0nN8AOAvamfDVEErHljO1yhhNAZCec4yuA5hHOo4SvbdTOC72yQUZAOKraARuDFFW2gjlqrjrZBrSFZC2HvYEvtI9jQYxOIrSZBAPAmUgdUj0QuKF80iT5GddUqSOikzTqdRouWMe2JunpNmzx8raYIfMJDgZDZD&token_type=bearer&expires_in=5183999, referer=https://www.facebook.com/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\func.php',
+    'line' => 468,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 86,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+
+29.04.2017 23:55
+
+
+29.04.2017 23:55
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\web\common-utf8\class\user.php, строка 786.
+<br>
+785:         $fields=[];
+<br>
+786:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш
+<br>
+787:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена
+Запрос: /user/api.php?fb&access_token=EAAFgEsSmWZBEBADE0nN8AOAvamfDVEErHljO1yhhNAZCec4yuA5hHOo4SvbdTOC72yQUZAOKraARuDFFW2gjlqrjrZBrSFZC2HvYEvtI9jQYxOIrSZBAPAmUgdUj0QuKF80iT5GddUqSOikzTqdRouWMe2JunpNmzx8raYIfMJDgZDZD&token_type=bearer&expires_in=5183999.<br>
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.
+Текст ошибки: <i>Undefined index: uid</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 82,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+)
+
+<br>
+<a href='http://test.htmlweb.dev/log/error/e1e7a76c1aef480a02807b8465e345b1.htm'>Переменные</a>
+
+
+url=/user/api.php?fb&access_token=EAAFgEsSmWZBEBADE0nN8AOAvamfDVEErHljO1yhhNAZCec4yuA5hHOo4SvbdTOC72yQUZAOKraARuDFFW2gjlqrjrZBrSFZC2HvYEvtI9jQYxOIrSZBAPAmUgdUj0QuKF80iT5GddUqSOikzTqdRouWMe2JunpNmzx8raYIfMJDgZDZD&token_type=bearer&expires_in=5183999, referer=http://test.htmlweb.dev/user/login.php
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\func.php',
+    'line' => 468,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',
+    'line' => 786,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',
+    'line' => 82,
+    'function' => 'login_fb',
+    'class' => 'User',
+    'type' => '::',
+  ),
+).<br>
+

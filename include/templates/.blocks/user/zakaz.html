@@ -1,0 +1,59 @@
+<div class="container clearfix">
+    <h1>Мои заказы</h1>
+    <div class="colored-list">
+        <? if (empty($zakaz)) { ?>
+            <div class="row">
+                У Вас нет ни одного заказа
+            </div>
+        <? } else { ?>
+            <? foreach ($zakaz as $z_it) { ?>
+                <div class="row">
+                    <div class="clearfix">
+                        <div class="col-xs-12">
+                            <div style="float: left; margin: 5px 0 5px 5px">
+                                <span>Дата: <b><?=time2html($z_it['time'])?></b></span>
+                            </div>
+                            <div style="float: left; margin: 5px 0 5px 20px">
+                                <span>Статус: <b><?=$z_it['status_name']?></b></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix li">
+                        <b class="col-xs-8">Наименование</b>
+                        <b class="col-xs-2 text-center">Количество</b>
+                        <b class="col-xs-2 text-center">Сумма</b>
+                    </div>
+
+                    <? $summ=$kol=0;?>
+                    <? foreach ($z_it['items'] as $i => $it) { $summ+=$it['summ']; $kol+=$it['kol']; ?>
+                        <div class="clearfix li" id="id<?=$it['id']?>">
+                            <div class="col-xs-8">
+                                <?=$i+1?>
+                                <a href="<?=$it['tovar_url']?>" target=_blank><?=$it['tovar_name']?></a>
+                            </div>
+                            <div class="col-xs-2 text-center">
+                                <? if ( !$z_it['status'] ) { ?>
+                                    <input value="<?=$it['kol']?>" class="edit" size="3" name="kol" data-tbl="zakaz2" data-id="<?=$it['id']?>" onChange="SendInput(this)" />
+                                <? } else { ?>
+                                    <?=$it['kol']?>
+                                <? } ?>
+                            </div>
+                            <div class="col-xs-2 text-center">
+                                <?=outSumm($it['summ'])?> руб
+                                <? if ( $z_it['status']==Zakaz::STATUS_BASKET ) { ?>
+                                    <a class='icon cart_remove confirm' href="/api.php?tbl=zakaz&del=<?=$it['id']?>" title="Удалить"></a>
+                                <? } ?>
+                            </div>
+                        </div>
+                    <? } ?>
+
+                    <div class="clearfix li">
+                        <b class="col-xs-8 text-right">Итого:</b>
+                        <b class="col-xs-2 text-center"><?=$kol?></b>
+                        <b class="col-xs-2 text-center"><?=outSumm( $summ )?> руб</b>
+                    </div>
+                </div>
+            <? } ?>
+        <?}?>
+    </div>
+</div>

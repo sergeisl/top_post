@@ -1,0 +1,103 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  z-index: 190;
+}
+.modal *,
+.modal :after,
+.modal :before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.modal__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+.modal::after {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+  content: '';
+}
+.modal_visible {
+  visibility: visible;
+}
+.modal__dialog {
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 999;
+  margin: auto;
+  overflow: auto;
+  height: 95vh;
+  min-height: 270px;
+  white-space: normal;
+  position: relative;
+}
+.modal__wrap {
+  margin: auto;
+  padding: 10px;
+}
+.modal__close {
+  cursor: pointer;
+}
+.modal_theme_grey {
+  transition: visibility 0ms 300ms;
+}
+.modal_theme_grey.modal_visible .modal__wrapper {
+  transition: opacity 300ms 0ms, visibility 0ms 0ms;
+  opacity: 1;
+  visibility: visible;
+}
+.modal_theme_grey.modal_visible .modal__dialog {
+  transition: -webkit-transform 300ms 0ms;
+  transition: transform 300ms 0ms;
+  transition: transform 300ms 0ms, -webkit-transform 300ms 0ms;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.modal_theme_grey .modal__wrapper {
+  transition: opacity 300ms 0ms, visibility 0ms 300ms;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(48,55,59,0.85);
+}
+.modal_theme_grey .modal__close {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  display: inline-block;
+  z-index: 1050;
+  background: url('../img/close.svg') 50% 50% no-repeat;
+  background-size: 100%;
+}
+.modal_theme_grey .modal__dialog {
+  transition: -webkit-transform 300ms 0ms;
+  transition: transform 300ms 0ms;
+  transition: transform 300ms 0ms, -webkit-transform 300ms 0ms;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  background: #fff;
+  padding: 24px;
+  width: 90%;
+  max-width: 1400px;
+  min-width: 300px;
+  position: relative;
+
+}
+

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="132px" height="200px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 105 160" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+    .str0 {stroke:#86776F;stroke-width:0.9}
+    .str1 {stroke:#BEB39A;stroke-width:0.9}
+    .fil1 {fill:#78685C}
+    .fil0 {fill:#BEB39A}
+    .fil2 {fill:url(#id0)}
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="16.7563" y1="5.3374" x2="104.094" y2="110.144">
+   <stop offset="0" style="stop-color:#DDD7C7"/>
+   <stop offset="1" style="stop-color:#FEFEFE"/>
+  </linearGradient>
+ </defs>
+   <rect class="fil0 str0" x="19" y="2" width="4" height="157"/>
+   <rect class="fil0 str0" x="98" y="2" width="4" height="157"/>
+   <rect class="fil1 str0" transform="matrix(0.052151 0.00541377 -0.00541378 0.0521509 18.6752 1.27972)" width="81" height="2988"/>
+   <rect class="fil1 str0" transform="matrix(0.052151 0.00541377 -0.00541378 0.0521509 98.2888 1.5813)" width="81" height="2988"/>
+   <rect class="fil2 str1" x="19" y="2" width="84" height="111"/>
+   <rect class="fil0 str0" transform="matrix(6.66809E-016 -0.0524311 0.0524313 2.8788E-015 22.7563 139.105)" width="81" height="1437"/>
+</svg>

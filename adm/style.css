@@ -1,0 +1,441 @@
+/* sprav */
+.sprav{
+    text-align:left;
+    width: 60%;
+}
+.fb-win .sprav {
+    width: auto;
+}
+.auth-form {
+    float: left;
+    margin-top: 0.8rem;
+    text-align: center;
+    width: 380px;
+}
+.sprav form p a {
+    border-bottom: 1px dotted #a81214;
+    color: #a81214;
+    text-decoration: none;
+}
+.sprav form a.auth-link {
+    border-bottom: 1px dotted #039;
+    color: #039;
+    text-decoration: none;
+}
+.sprav form a:hover,
+.sprav form a:focus,
+.sprav form a:active {
+    text-decoration: none;
+    border-bottom-style: solid;
+}
+.sprav a.auth-link {
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+.sprav label {
+    display: block;
+    font-size: 1.5rem;
+    color: #666;
+    width: 450px;
+}
+.sprav label.login,
+.sprav label.password,
+.sprav label.check {
+    padding: 0.8rem 0;
+}
+.sprav label.check {
+    /*    display: inline-block;*/
+    vertical-align: middle;
+    width: auto;
+}
+.sprav label[for] {
+    padding-top: 2rem;
+}
+.sprav label[for="name"] {
+    padding-top: 0;
+}
+.sprav label[for="tel"] {
+    margin-bottom: 0.4rem;
+}
+.sprav input[type="text"],
+.sprav input[type="email"],
+.sprav input[type="number"],
+.sprav input[type="float"],
+.sprav input[type="tel"],
+.sprav input[type="file"],
+.sprav input[type="password"],
+.sprav select,
+.sprav textarea {
+    border: 1px solid #ccc;
+    color: #39365a;
+    /*display: block;*/
+    font-family: Tahoma,Arial,sans-serif;
+    font-size: 1.6rem;
+    margin-top: 0.4rem;
+    /*max-width: 460px;*/
+    padding: 0.8rem;
+    width: 100%/* !important*/;
+}
+.sprav textarea {
+    max-width: 100%;
+    height: 15rem;
+}
+.sprav option {
+    padding-left: 0.8rem;
+}
+.sprav input[placeholder] {
+    margin: 0;
+}
+.sprav input[type="file"] {
+    margin-bottom: 1.6rem;
+}
+.sprav input[name="name"],
+.sprav label[for="name"] {
+    max-width: 460px;
+}
+
+.fb-win1 .sprav input[type="reset"]#submit_file, .fb-win1 .sprav input[type="submit"]#submit_file {
+    display: inline-block;
+    width: 2px;
+}
+/* ----- Убираем стрелочки -----*/
+.sprav input[type="number"] {
+    -moz-appearance:textfield;
+}
+.sprav input::-webkit-inner-spin-button,
+.sprav input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* для модального окна в справочниках, чтобы справа от поля добавлять '+' */
+
+.fb-win1 .sprav input[type="text"],
+.fb-win1 .sprav input[type="email"],
+.fb-win1 .sprav input[type="number"],
+.fb-win1 .sprav input[type="float"],
+.fb-win1 .sprav input[type="tel"],
+.fb-win1 .sprav input[type="file"],
+.fb-win1 .sprav input[type="password"],
+.fb-win1 .sprav select,
+.fb-win1 .sprav textarea {
+    display: inline-block;
+    width: 450px/* !important нельзя, иначе я не могу тянуть textarea */;
+}
+.fb-win1 .icon.add {
+    margin-right: 0;
+    float: none;
+    vertical-align: middle;
+}
+
+#info,.info{
+    font-size: 1.3rem;
+    margin: 5px 0 5px -21px;
+    padding: 9px 15px 13px;
+    background: #aaffaa;
+    color: #333;
+    border-radius: 0 9px 9px 0;
+    -moz-border-radius: 0 9px 9px 0;
+    -o-border-radius: 0 9px 9px 0;
+    -webkit-border-radius: 0 9px 9px 0;
+    position: relative;
+    box-shadow: 3px 3px 7px 0 #666;
+    -moz-box-shadow: 3px 3px 7px 0 #666;
+    -webkit-box-shadow: 3px 3px 7px 0 #666;
+}
+.info{
+    float: right;
+    font: 18px Tahoma,sans-serif;
+}
+#info div{
+    text-align:right;
+    color: #919191;
+    font-size: 11px;
+    width:130px;
+    float:right;
+}
+#info:before{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    bottom: -10px;
+    border-width: 0 10px 10px 0;
+    border-right-color: #5bb75b;
+    left: 0;
+}
+
+.box1, .box2{
+    border:1px solid #555555;
+    float:left;margin:5px;padding:5px;
+    box-shadow: 0 0 10px rgba(206, 98, 98, 0.5);
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+}
+.box1	{width:350px;}
+.box2	{width:250px;}
+.box1 table, .box2 table{width:100%;}
+
+.hlp,.visa {color:#000;border:#9fbddd 1px solid;background-color:#E7F5FE;
+    cursor:pointer;margin-left:5px;line-height:14px;
+    display:inline-block;text-align:center;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    font-weight:100;
+    text-indent:0;
+}
+.hlp{
+    width:12px;
+}
+
+
+/* ----- Таблица клиентов ----- */
+/*блок редактирования товара*/
+div.fb-win1 #tovar.client {
+    width: 500px;
+}
+.fb-win .client table td input,
+.fb-win .client table td textarea, .fb-win table td select{
+    width: 308px;
+    padding: 2px;
+}
+
+.fb-win .client table td input[type=checkbox]{
+    width: 10px;
+}
+.fb-win h2{
+    text-align:center;
+}
+@media (max-height:700px) {/*для маленького окна*/
+    .fb-win h2{
+        margin:0;
+    }
+}
+
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 10px rgba(206, 98, 98, 0.5);
+}
+
+/* скрываю чекбоксы категорий */
+label.category input[type="checkbox"]{
+    visibility: hidden;
+}
+label.category input[type="checkbox"] + span {
+    background: #e3d3f1;
+    cursor: pointer;
+    padding: 0 10px;
+    white-space:nowrap;
+}
+label.category input[type="checkbox"]:checked + span {
+    color: #fff;
+    font-weight:bold;
+    background:#e572a6;
+}
+span.category {
+    cursor: pointer;
+    padding: 0 10px;
+    color: #fff;
+    font-weight:bold;
+    background:#e572a6;
+    white-space:nowrap;
+}
+
+
+.client-table{
+    width: 100%;
+    border-spacing:0;
+    border-collapse:collapse;
+    *border-collapse: collapse; /* Для IE7 и страше */
+}
+.client-table th, .client-table td{
+    padding:5px 10px;
+    text-align:center;
+    /* border-bottom: solid 1px #f8b3e6;*/
+}
+.client-table th{
+    cursor:pointer;
+}
+.client-table th span{
+    font-weight:normal;
+}
+
+.client-table td span{
+    font-size:10px;
+    line-height:14px;
+    margin:0; padding:0;
+}
+
+.client-table td.left{
+    text-align:left;
+    float:none;
+    margin-right: 0;
+    /* border-bottom: solid 1px #f8b3e6;*/
+}
+.client-table td.right, td.right,
+.client-table td.num, td.num  {
+    text-align:right;
+    float:none;
+    margin-right:0;
+    margin-left: 0;
+}
+.client-table td.num, td.num  {
+    white-space:nowrap;
+}
+
+.client-table tr:hover{
+    background: #f8d6ef;
+}
+.client-table td.edit-del{
+    visibility:hidden;
+    white-space:nowrap;
+    height:20px;
+    width: 50px;
+}
+.row_over td.edit-del{
+    visibility:visible;
+}
+.client-table td.i{
+    font-style:italic;
+    text-align:right;
+}
+
+
+.work{
+    max-width:800px;
+}
+
+
+form#work table td input{
+    width:100px;
+}
+
+form#work table td input#klient{
+    width:300px;
+}
+.fb-win table td input:read-only,
+.fb-win form#work table td input:-moz-read-only{
+    border: 1px;
+    outline-style: none;
+    background-color: lightgray;
+}
+input[readonly="readonly"],/*объединять нельзя*/
+input[readonly]{
+    border:1px;
+    background-color: lightgray;
+}
+/* ----- Таблица клиентов ----- */
+.fb-win table td input,
+.fb-win table td textarea, .fb-win table td select{
+    width: 308px;
+    padding:0;
+}
+.fb-win table td input[type=checkbox]{
+    width: 10px;
+}
+.fb-win h2{
+    text-align:center;
+}
+@media (max-height:700px) {/*для маленького окна*/
+    .fb-win h2{
+        margin:0;
+    }
+}
+.client-table{
+    border-spacing:0;
+    border-collapse:collapse;
+    *border-collapse: collapse; /* Для IE7 и страше */
+}
+.client-table th, .client-table td{
+    padding:5px 10px;
+    text-align:center;
+    /* border-bottom: solid 1px #f8b3e6;*/
+}
+.client-table th{
+    cursor:pointer;
+}
+.client-table th span{
+    font-weight:normal;
+}
+
+.client-table td span{
+    font-size:10px;
+    line-height:14px;
+    margin:0; padding:0;
+}
+
+.client-table td.left{
+    text-align:left;
+    float:none;
+    margin-right: 0;
+    /* border-bottom: solid 1px #f8b3e6;*/
+}
+.client-table td.right, td.right,
+.client-table td.num, td.num  {
+    text-align:right;
+    float:none;
+    margin-right:0;
+    margin-left: 0;
+}
+.client-table td.num, td.num  {
+    white-space:nowrap;
+}
+
+.client-table tr:hover{
+    background: #f8d6ef;
+}
+.client-table td.edit-del{
+    visibility:hidden;
+    white-space:nowrap;
+    height:20px;
+}
+.row_over td.edit-del{
+    visibility:visible;
+}
+.client-table td.i{
+    font-style:italic;
+    text-align:right;
+}
+
+.work{
+    max-width:800px;
+}
+
+
+form#work table td input{
+    width:100px;
+}
+
+form#work table td input#klient{
+    width:300px;
+}
+
+.fb-win table td input:read-only{
+    border: 5px;
+    outline-style: none;
+}
+
+/*ячейки в рабочей таблице*/
+.client-table tr td input {
+    font: 13px arial,sans-serif;
+    outline: none;
+    color: #000000;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-style: none;
+    margin: 2px;
+    text-align:right;
+    width:35px;
+}
+
+.client-table tr td:hover input {
+    background-color:#BBCCBB;
+    outline: 1px solid #555555;
+}

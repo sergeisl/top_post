@@ -1,0 +1,21 @@
+<section class="row row3" id="primenenie">
+    <div class="container clearfix">
+        <div class="col-sm-12 col-md-12">
+            <h3>ОСОБЕННОСТИ ПРИМЕНЕНИЯ</h3>
+            <ul class="accordion">
+                <? $pages = getPages(2) ?>
+                <? foreach ($pages as $it) { ?>
+                <li>
+                    <h4><a href="<?= $it['link'] ?>"><b><?= $it['title'] ?></b></a></h4>
+                    <div>
+                        <?= $it['description'] ?>
+                        <p>
+                            <a href="<?= $it['link'] ?>">Подробнее ...</a>
+                        </p>
+                    </div>
+                </li>
+                <? } ?>
+            </ul>
+        </div>
+    </div>
+</section>
