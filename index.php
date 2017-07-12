@@ -1,6 +1,5 @@
 <?
 include_once './include/config.php';
-//include_once "./bbcode.php";
 spl_autoload_call('bb.class');
 $url = Get::url();
 

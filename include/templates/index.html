@@ -7,6 +7,7 @@ if(!empty($_GET['page'])){
 ?>
 <script>
     function open_modal(id) {
+        document.body.style.overflowY = 'hidden';
         let modals = document.getElementById(id);
         modals.classList.add('modal_visible');
         return false;
@@ -119,21 +120,18 @@ if(!empty($_GET['page'])){
                 <?}?>
                 <div class="modal modal_theme_grey " id="<?= $value->id?>">
                     <div class="modal__wrapper">
-                        <div class="modal__wrap">
+                        <div class="modal__dialog">
                             <div class="modal__close" onclick="return close_modal(<?= $value->id?>);"></div>
-                            <div class="modal__dialog">
-
-                                <? foreach ($value->imgs as $val) {?>
-                                    <?if(!empty($value->imgs[0]->{205})){?>
-                                        <img src="https://sp2all.ru/<?=$val->{205}?>">
-                                    <?}?>
+                            <? foreach ($value->imgs as $val) {?>
+                                <?if(!empty($value->imgs[0]->{205})){?>
+                                    <img src="https://sp2all.ru/<?=$val->{205}?>">
                                 <?}?>
-                                <p style="color: #888888;text-align: left;outline: none;font-family: Arial, sans-serif;font-size: 12px;">
-                                    <?= $bb = BB::bb2html($value->desc);?>
-                                </p>
-                                <?  //echo bbcode($value->desc);?>
+                            <?}?>
+                            <p style="color: #888888;text-align: left;outline: none;font-family: Arial, sans-serif;font-size: 12px;">
+                                <?= $bb = BB::bb2html($value->desc);?>
+                            </p>
+                            <?  //echo bbcode($value->desc);?>
 
-                            </div>
                         </div>
                     </div>
                 </div>
