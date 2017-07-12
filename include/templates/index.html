@@ -1,0 +1,151 @@
+<?
+if(!empty($_GET['page'])){
+    $w = ++$_GET['page'];
+}else{
+    $w = '2';
+}
+?>
+<script>
+    function open_modal(id) {
+        let modals = document.getElementById(id);
+        modals.classList.add('modal_visible');
+        return false;
+    }
+    function close_modal(id) {
+        let modals = document.getElementById(id);
+        modals.classList.remove('modal_visible');
+    }
+    var pagen = <?=$w?>;
+    function page(page) {
+        $('.eee').css({'display':'inline-flex'});
+        $('.www').css({'display':'none'});
+        $.ajax({
+            url: 'https://sp2all.ru/api/getSuppliers/?&page='+page+'&format=json',
+            type: 'get',
+            contentType: false,
+            processData: false,
+            dataType: 'json',
+            success: function(data){
+                console.log(data)
+                if(data){
+                    data.items.forEach(function(item){
+                        var imgs1 = '';
+                        item.imgs.forEach(function(img) {
+                            if (img[205]) {
+                                imgs1 += '<img src="https://sp2all.ru/' + img[205] + '">';
+                            }
+                        });
+                        console.log(imgs1);
+                        $('.row')
+                            .append('  ' +
+                                '<div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">' +
+                                    '<div class="item">  ' +
+                                        '<a href="#" onclick="return open_modal('+item.id+');">'+item.title+'</a>' +
+                                        '<br><br>' +
+                                        '<div>' +
+                                            '<img src="https://sp2all.ru/'+item.imgs[0][100]+'">' +
+                                        '</div>' +
+                                        '<div class="modal modal_theme_grey " id="'+item.id+'">'+
+                                            '<div class="modal__wrapper">'+
+                                                '<div class="modal__wrap">'+
+                                                    '<div class="modal__close" onclick="return close_modal('+item.id+');"></div>'+
+                                                    '<div class="modal__dialog">'+imgs1+
+                                                    ' <p style="">'+item.desc+'</p>'+
+                                                    '</div>'+
+                                                '</div>'+
+                                            '</div>'+
+                                        '</div>'+
+                                    '</div>' +
+                                '</div>')
+                            .appendTo('.row');
+                    });
+                }
+                $('.eee').css({'display':'none'});
+                $('.www').css({'display':'inline-flex'});
+            }
+        });
+    }
+</script>
+<style>
+    .item{
+        border: 1px solid #616161;
+        padding: 20px;
+        text-align: center;
+        margin-top: 35px;
+        background-color: #fff;
+        box-shadow: 1px 1px 0px 10px #fff;
+    }
+    .item p{
+        color: #888888;
+        text-align: left;
+        outline: none;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+    }
+    .item a{
+        text-decoration: none;
+        color: #2f2f2f;
+    }
+    .item:hover{
+        sbackground-color: #c0c0c0;
+    }
+    .addButtom{
+        margin: auto;
+        width: 600px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .eee{
+        background-image:  url('../../img/103.gif');
+        height: 25px;
+        width: 160px;
+        display: inline-flex;
+        display: none;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <? foreach ($data_get->items as $value) {?>
+        <div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">
+            <div class="item">
+                <div>
+                    <a href="#" onclick="return open_modal(<?= $value->id?>);"><?= $value->title?></a>
+                </div>
+                <?if(!empty($value->imgs[0]->{0})){?>
+                    <img src="https://sp2all.ru/<?= $value->imgs[0]->{0}?>" class="imgs">
+                <?}else{?>
+                    <img src="https://sp2all.ru/images/205_noimg.gif">
+                <?}?>
+                <div class="modal modal_theme_grey " id="<?= $value->id?>">
+                    <div class="modal__wrapper">
+                        <div class="modal__wrap">
+                            <div class="modal__close" onclick="return close_modal(<?= $value->id?>);"></div>
+                            <div class="modal__dialog">
+
+                                <? foreach ($value->imgs as $val) {?>
+                                    <?if(!empty($value->imgs[0]->{205})){?>
+                                        <img src="https://sp2all.ru/<?=$val->{205}?>">
+                                    <?}?>
+                                <?}?>
+                                <p style="color: #888888;text-align: left;outline: none;font-family: Arial, sans-serif;font-size: 12px;">
+                                    <?= $bb = BB::bb2html($value->desc);?>
+                                </p>
+                                <?  //echo bbcode($value->desc);?>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?}?>
+    </div>
+</div>
+<div>
+
+    <div class="addButtom">
+        <a href="?page=<?= $w?>" class="www" onclick="pagen++;page(pagen);return false;">Ещё 20</a>
+        <div class="eee"></div>
+    </div>
+</div>
