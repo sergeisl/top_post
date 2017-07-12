@@ -1,31 +1,31 @@
 
 
-12.07.2017 16:36
+13.07.2017 01:01
 Произошла ошибка с кодом <b>8</b> Замечание!
-Файл: C:\OpenServer\domains\top_post\index.php(63) : eval()'d code, строка 128.
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 147.
 <br>
-62:     ob_start();
+61:     ob_start();
 <br>
-63:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
 <br>
-64:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
 
-127: 
-128: 
-129: Запрос: /?page=2.<br>
+146: 
+147: 
+148: Запрос: /?page=2.<br>
 SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
 Текст ошибки: <i>Undefined property: stdClass::$205</i>
 Стек: array (
   0 => 
   array (
-    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(63) : eval()\'d code',
-    'line' => 128,
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 147,
     'function' => 'myErrorHandler',
   ),
   1 => 
   array (
     'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
-    'line' => 63,
+    'line' => 62,
     'function' => 'eval',
   ),
 )

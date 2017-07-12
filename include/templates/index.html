@@ -6,16 +6,25 @@ if(!empty($_GET['page'])){
 }
 ?>
 <script>
+    var router = new HashRouter();
+
+    router.add('/', function () {
+        console.log(234);
+    });
     function open_modal(id) {
+        location.hash = id;
         document.body.style.overflowY = 'hidden';
         let modals = document.getElementById(id);
         modals.classList.add('modal_visible');
         return false;
     }
     function close_modal(id) {
+        history.replaceState(3, "Title 2", "/");
+        document.body.style.overflowY = 'auto';
         let modals = document.getElementById(id);
         modals.classList.remove('modal_visible');
     }
+
     var pagen = <?=$w?>;
     function page(page) {
         $('.eee').css({'display':'inline-flex'});
@@ -30,13 +39,17 @@ if(!empty($_GET['page'])){
                 console.log(data)
                 if(data){
                     data.items.forEach(function(item){
+                        console.log(item.id);
+                        router.add('"'+item.id+'"', function () {
+                            console.log(item.id);
+                        });
+
                         var imgs1 = '';
                         item.imgs.forEach(function(img) {
                             if (img[205]) {
                                 imgs1 += '<img src="https://sp2all.ru/' + img[205] + '">';
                             }
                         });
-                        console.log(imgs1);
                         $('.row')
                             .append('  ' +
                                 '<div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">' +
@@ -112,6 +125,13 @@ if(!empty($_GET['page'])){
             <div class="item">
                 <div>
                     <a href="#" onclick="return open_modal(<?= $value->id?>);"><?= $value->title?></a>
+
+                    <script>
+                        router.add('<?= $value->id?>', function () {
+                            open_modal('<?= $value->id?>');
+                        });
+                    </script>
+
                 </div>
                 <?if(!empty($value->imgs[0]->{0})){?>
                     <img src="https://sp2all.ru/<?= $value->imgs[0]->{0}?>" class="imgs">

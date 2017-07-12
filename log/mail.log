@@ -907,3 +907,66 @@ url=/adm/, referer=http://top.dev/user/login.php<br />
 ).<br><br />
 <br>
 <a href='http://top.dev/log/error/2017_07_12.log'>Все ошибки за день</a><br>
+
+
+13-07-2017 00:05:52 PHP error report
+13.07.2017 00:05<br />
+<br />
+<br />
+13.07.2017 00:05<br />
+Произошла ошибка с кодом <b>8</b> Замечание!<br />
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 129.<br />
+<br><br />
+61:     ob_start();<br />
+<br><br />
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));<br />
+<br><br />
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+128: <br />
+129: <br />
+130: Запрос: /?page=2.<br><br />
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.<br />
+Текст ошибки: <i>Undefined property: stdClass::$205</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',<br />
+    'line' => 129,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',<br />
+    'line' => 62,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://top.dev/log/error/5vpto11pq0gs60fbast28rq1b0.htm'>Переменные</a><br />
+<br />
+<br />
+url=/?page=2, referer=http://top.dev/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',<br />
+    'line' => 482,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',<br />
+    'line' => 129,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',<br />
+    'line' => 62,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://top.dev/log/error/2017_07_13.log'>Все ошибки за день</a><br>
