@@ -499,10 +499,11 @@ th {
 }
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1024px;
   min-width: 320px;
   margin: auto;
   smargin-top: 30px;
+
 }
 .imgs{
   display: inline;
