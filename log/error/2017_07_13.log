@@ -7668,3 +7668,239 @@ url=/
   ),
 ).<br>
 
+13.07.2017 21:46
+
+
+13.07.2017 21:46
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 59.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+58: 
+59: 
+60: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 59,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 59,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 21:47
+
+
+13.07.2017 21:47
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 59.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+58: 
+59: 
+60: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 59,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 59,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 21:52
+
+
+13.07.2017 21:52
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 60.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+59: 
+60: 
+61: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 60,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 60,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 21:52
+
+
+13.07.2017 21:52
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 60.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+59: 
+60: 
+61: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 60,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 60,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+

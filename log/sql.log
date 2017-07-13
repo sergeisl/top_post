@@ -64307,3 +64307,2933 @@ count:0
 13-07-2017 18:34:48 
 SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
 count:1
+
+13-07-2017 21:01:30 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:01:32 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:01:32 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:32 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:32 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:01:41 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:01:42 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:01:42 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:42 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:01:42 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:02:16 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:02:17 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:02:17 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:02:17 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:02:17 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:05:43 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:05:44 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:05:44 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:05:44 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:05:44 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:06:33 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:06:34 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:06:34 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:06:34 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:06:34 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:07:09 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:07:10 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:07:10 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:07:10 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:07:10 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:08:06 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:08:08 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:08:08 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:08 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:08 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:08:35 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:08:37 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:08:37 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:37 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:08:37 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:09:20 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:09:22 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:09:22 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:22 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:22 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:09:49 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:09:49 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:49 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:09:49 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:10:03 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:10:03 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:10:03 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:10:03 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:40:06 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:40:07 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:40:07 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:40:07 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:40:07 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:42:13 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:42:14 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:42:14 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:14 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:14 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:42:46 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:42:47 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:42:47 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:47 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:42:47 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:43:55 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:43:56 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:43:56 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:43:56 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:43:56 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:45:41 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:45:42 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:45:42 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:45:42 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:45:42 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:46:03 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:46:03 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:46:03 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:46:03 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:47:15 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:47:16 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:47:16 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:47:16 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:47:16 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:52:20 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:52:21 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:52:21 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:21 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:21 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:52:44 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:52:44 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:44 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:44 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:52:54 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:52:54 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:54 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:52:54 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:53:07 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:53:09 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:53:09 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:09 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:09 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:53:15 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:53:16 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:53:16 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:16 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:53:16 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:54:22 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:54:23 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:54:23 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:23 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:23 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:54:50 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:54:52 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:54:52 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:52 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:54:52 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:58:09 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:58:10 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:58:10 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:58:10 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:58:10 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 21:59:48 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 21:59:49 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 21:59:49 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:59:49 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 21:59:49 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:04:26 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:04:28 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:04:28 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:04:28 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:04:28 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:13:07 
+SELECT * FROM ban_users WHERE ban=9 and ( (ip>0 and ip="2130706433")) LIMIT 1
+count:0
+
+13-07-2017 22:13:07 
+SELECT * FROM ban_users WHERE ban=9 and (name="admin1" or  (ip>0 and ip="2130706433")) LIMIT 1
+count:0
+
+13-07-2017 22:13:07 
+SELECT * FROM user WHERE name="admin1" LIMIT 1
+count:1
+
+13-07-2017 22:13:08 
+UPDATE user SET ip=INET_ATON("127.0.0.1"), time="2017-07-13 22:13:07" WHERE id="3"
+Info:
+Rows matched: 1  Changed: 1  Warnings: 0
+count:1
+
+13-07-2017 22:13:08 
+DELETE FROM ban_users WHERE name="admin1" or ip="2130706433" LIMIT 1
+count:0
+
+13-07-2017 22:13:08 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:13:08 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:13:08 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:13:08 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:08 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:08 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:13:08 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:13:09 
+SELECT * FROM pages WHERE parent=12 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:09 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:09 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:09 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:09 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:13:14 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:13:16 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:13:16 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:16 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:13:16 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:18:23 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:18:24 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:18:24 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:18:24 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:18:24 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:22:50 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:22:51 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:22:51 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:22:51 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:22:51 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:26:57 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:26:58 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:26:58 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:26:58 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:26:58 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:29:48 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:29:49 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:29:49 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:29:49 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:29:49 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:32:46 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:32:47 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:32:47 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:32:47 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:32:47 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:53:30 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:53:31 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:53:31 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:53:31 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:53:31 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:54:36 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:54:37 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:54:37 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:54:37 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:54:37 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:56:35 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:56:36 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:56:36 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:56:36 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:56:36 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 22:57:33 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 22:57:34 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 22:57:34 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:57:34 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 22:57:34 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:00:38 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:00:39 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:00:39 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:00:39 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:00:39 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:02:01 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:02:02 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:02:02 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:02:02 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:02:02 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:03:56 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:03:57 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:03:57 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:03:57 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:03:57 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:04:27 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:04:28 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:04:28 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:04:28 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:04:28 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:04:59 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:05:00 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:05:00 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:00 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:00 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:05:29 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:05:31 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:05:31 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:31 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:05:31 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:06:18 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:06:19 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:06:19 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:19 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:19 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:06:34 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:06:35 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:06:35 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:35 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:06:35 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:08:55 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:08:56 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:08:56 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:08:56 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:08:56 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:10:17 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:10:18 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:10:18 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:10:18 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:10:18 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE url="/lampa-1" order by services LIMIT 1
+count:0
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE (parent=0 and url="lampa-1") or url="/lampa-1" LIMIT 1
+count:1
+
+13-07-2017 23:48:30 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:48:30 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:30 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:30 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE url="/contacts" order by services LIMIT 1
+count:0
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE (parent=0 and url="contacts") or url="/contacts" LIMIT 1
+count:1
+
+13-07-2017 23:48:33 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:48:33 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:33 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:33 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE url="/about" order by services LIMIT 1
+count:0
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE (parent=0 and url="about") or url="/about" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM blocks WHERE `key`="head" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM blocks WHERE `key`="tovar_list" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM pages  WHERE parent=3 and services&1!=1
+count:4
+
+13-07-2017 23:48:35 
+SELECT * FROM pages  WHERE parent=3 and services&1!=1 LIMIT 0, 500
+count:4
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM blocks WHERE `key`="contacts" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:35 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:35 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE url="/kupit" order by services LIMIT 1
+count:0
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE (parent=0 and url="kupit") or url="/kupit" LIMIT 1
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM blocks WHERE `key`="zakaz" LIMIT 1
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM tovar WHERE 1 ORDER BY price
+count:0
+
+13-07-2017 23:48:42 
+SELECT * FROM blocks WHERE `key`="tovar_list" LIMIT 1
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM pages  WHERE parent=3 and services&1!=1
+count:4
+
+13-07-2017 23:48:42 
+SELECT * FROM pages  WHERE parent=3 and services&1!=1 LIMIT 0, 500
+count:4
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:42 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:42 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE url="/primenenie" order by services LIMIT 1
+count:0
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE (parent=0 and url="primenenie") or url="/primenenie" LIMIT 1
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM blocks WHERE `key`="primenenie" LIMIT 1
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM pages  WHERE parent=2
+count:2
+
+13-07-2017 23:48:45 
+SELECT * FROM pages  WHERE parent=2 LIMIT 0, 500
+count:2
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE id="2" LIMIT 1
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:45 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:45 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:48:53 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:48:54 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:48:54 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:54 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:48:54 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:51:46 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:51:47 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:51:47 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:51:47 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:51:47 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:52:52 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:52:54 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:52:54 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:52:54 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:52:54 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:55:14 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:55:14 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:55:14 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:55:14 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
+
+13-07-2017 23:56:21 
+SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1
+count:1
+
+13-07-2017 23:56:22 
+SELECT * FROM blocks WHERE `key`="header" LIMIT 1
+count:1
+
+13-07-2017 23:56:22 
+SELECT * FROM blocks WHERE `key`="menu" LIMIT 1
+count:1
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE parent=0 and `services`&2=0 ORDER BY sort
+count:6
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE parent=1 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE parent=2 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE parent=3 and `services`&2=0 ORDER BY sort
+count:1
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE id="3" LIMIT 1
+count:1
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE parent=5 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE parent=6 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:56:22 
+SELECT * FROM pages WHERE parent=16 and `services`&2=0 ORDER BY sort
+count:0
+
+13-07-2017 23:56:22 
+SELECT * FROM blocks WHERE `key`="footer" LIMIT 1
+count:1
