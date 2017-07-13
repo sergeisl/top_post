@@ -38,25 +38,36 @@
 
 <?
 if(!empty($_GET['page'])){
-    $w = ++$_GET['page'];
+    $w = $_GET['page']+1;
 }else{
     $w = '2';
 }
 ?>
 <script>
-    var pagen = <?=$w?>;
+    var pagep,pagen;
+    pagen = '<?=$w?>';
+    pagep = '<?=$w?>' - 1;
+
     $(()=>{
-        $('.next_page').append('<a href="?page='+pagen+'" onclick="pagen++;page(pagen);return false;" id="next_page_but">Ещё</a>').appendTo('.next_page');
+        $('.next_page')
+            .append('<a href="?page='+(pagen)+'" onclick="pagen;page(pagen, true);return false;" id="next_page_but">Ещё</a>')
+            .appendTo('.next_page');
+        if(pagen >'2') {
+            $('.prev_page')
+                .append('<a href="?page='+(pagep-1)+'" onclick="pagep--;page(pagep, false);return false;" id="prev_page_but">Ещё</a>')
+                .appendTo('.prev_page');
+        }
     });
 </script>
 <script>
     var router = new HashRouter();
 
     function open_modal(id) {
-        document.body.style.overflowY = 'hidden';
         let modals = document.getElementById(id);
-        modals.classList.add('modal_visible');
-        console.log(id)
+        if(modals != undefined){
+            document.body.style.overflowY = 'hidden';
+            modals.classList.add('modal_visible');
+        }
         return false;
     }
     function close_modal(id) {
@@ -70,9 +81,10 @@ if(!empty($_GET['page'])){
         open_modal(params.id);
     });
 
-    function page(page) {
+    function page(page, cur) {
         $('.load_page').css({'display':'inline-flex'});
         $('#next_page_but').remove();
+        $('#prev_page_but').remove();
         $.ajax({
             url: 'https://sp2all.ru/api/getSuppliers/?&page='+page+'&format=json',
             type: 'get',
@@ -82,6 +94,7 @@ if(!empty($_GET['page'])){
             success: function(data){
                 console.log(data)
                 if(data){
+                    var str = '';
                     data.items.forEach(function(item){
                         var imgs1 = '';
                         item.imgs.forEach(function(img) {
@@ -89,30 +102,43 @@ if(!empty($_GET['page'])){
                                 imgs1 += '<img src="https://sp2all.ru/' + img[205] + '">';
                             }
                         });
-                        $('.row')
-                            .append('  ' +
-                                '<div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_4">' +
-                                    '<div class="item">  ' +
-                                        '<a href="?page='+page+'#m?id='+item.id+'" data-id="'+item.id+'" class="noLink">'+item.title+'</a>' +
-                                        '<br><br>' +
-                                        '<div>' +
-                                            '<img src="https://sp2all.ru/'+item.imgs[0][100]+'">' +
-                                        '</div>' +
-                                        '<div class="modal modal_theme_grey " id="'+item.id+'">'+
-                                            '<div class="modal__wrapper">'+
-                                                '<div class="modal__dialog">' +
-                                                '<div class="modal__close" onclick="return close_modal('+item.id+');"></div>'+imgs1+
-                                                ' <p style="">'+item.desc+'</p>'+
-                                                '</div>'+
-                                            '</div>'+
-                                        '</div>'+
-                                    '</div>' +
-                                '</div>')
-                            .appendTo('.row');
+                        str += '  ' +
+                        '<div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">' +
+                        '<div class="item">  ' +
+                        '<a href="?page='+page+'#m?id='+item.id+'" data-id="'+item.id+'" class="noLink">'+item.title+'</a>' +
+                        '<br><br>' +
+                        '<div>' +
+                        '<img src="https://sp2all.ru/'+item.imgs[0][100]+'">' +
+                        '</div>' +
+                        '<div class="modal modal_theme_grey " id="'+item.id+'">'+
+                        '<div class="modal__wrapper">'+
+                        '<div class="modal__dialog">' +
+                        '<div class="modal__close" onclick="return close_modal('+item.id+');"></div>'+imgs1+
+                        ' <p style="">'+item.desc+'</p>'+
+                        '</div>'+
+                        '</div>'+
+                        '</div>'+
+                        '</div>' +
+                        '</div>'
+
                     });
+                    if(cur){
+                        $('.row').append(str).appendTo('.row');
+                    } else {
+                        $('.row').prepend(str).appendTo('.row');
+                    }
                 }
                 $('.load_page').css({'display':'none'});
-                $('.next_page').append('<a href="?page='+pagen+'" onclick="pagen++;page(pagen);return false;" id="next_page_but">Ещё</a>').appendTo('.next_page');
+
+                $('.next_page')
+                    .append('<a href="?page='+(pagen)+'" onclick="pagen++;page(pagen, true);return false;" id="next_page_but">Ещё</a>')
+                    .appendTo('.next_page');
+
+                if( parseInt(pagep)>2 ) {
+                    $('.prev_page')
+                        .append('<a href="?page='+(pagep-1)+'" onclick="pagep--;page(pagep, false);return false;" id="prev_page_but">Ещё</a>')
+                        .appendTo('.prev_page');
+                }
             }
         });
     }
@@ -123,14 +149,19 @@ if(!empty($_GET['page'])){
     });
 
 </script>
-
+<div>
+    <div class="addButtom">
+        <div class="prev_page"></div>
+        <div class="load_page"></div>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <? foreach ($data_get->items as $value) {?>
-        <div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_4">
+        <div class="row__col row__col_xs_12 row__col_sm_6 row__col_lg_3">
             <div class="item">
                 <div>
-                    <a href="#m?id=<?= $value->id?>"><?= $value->title?></a>
+                    <a href="?page=<?=$_GET['page']?>#m?id=<?=$value->id?>" data-id="<?=$value->id?>" class="noLink"><?= $value->title?></a>
 
                     <script>
                         router.add('<?= $value->id?>', function () {
@@ -167,7 +198,6 @@ if(!empty($_GET['page'])){
     </div>
 </div>
 <div>
-
     <div class="addButtom">
         <div class="next_page"></div>
         <div class="load_page"></div>

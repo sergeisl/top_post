@@ -1,8 +1,8 @@
 
 
-13.07.2017 12:45
+13.07.2017 18:32
 Произошла ошибка с кодом <b>8</b> Замечание!
-Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 153.
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
 <br>
 61:     ob_start();
 <br>
@@ -10,16 +10,16 @@
 <br>
 63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
 
-152: 
-153: 
-154: Запрос: /?page=2.<br>
+163: 
+164: 
+165: Запрос: /.<br>
 SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
-Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Текст ошибки: <i>Undefined index: page</i>
 Стек: array (
   0 => 
   array (
     'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
-    'line' => 153,
+    'line' => 164,
     'function' => 'myErrorHandler',
   ),
   1 => 

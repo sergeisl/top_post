@@ -1119,3 +1119,6552 @@ url=/?page=2, referer=http://top.dev/
   ),
 ).<br>
 
+13.07.2017 17:55
+
+
+13.07.2017 17:55
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 181.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+180: 
+181: 
+182: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 181,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 181,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 17:57
+
+
+13.07.2017 17:57
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 181.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+180: 
+181: 
+182: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 181,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 181,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 17:58
+
+
+13.07.2017 17:58
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 182.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+181: 
+182: 
+183: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:03
+
+
+13.07.2017 18:03
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 182.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+181: 
+182: 
+183: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:03
+
+
+13.07.2017 18:03
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 182.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+181: 
+182: 
+183: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/?page=2
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:04
+
+
+13.07.2017 18:04
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 182.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+181: 
+182: 
+183: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:05
+
+
+13.07.2017 18:05
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 182.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+181: 
+182: 
+183: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 182,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:09
+
+
+13.07.2017 18:09
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 183.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+182: 
+183: 
+184: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:11
+
+
+13.07.2017 18:11
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 183.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+182: 
+183: 
+184: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:13
+
+
+13.07.2017 18:13
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 183.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+182: 
+183: 
+184: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:15
+
+
+13.07.2017 18:15
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 183.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+182: 
+183: 
+184: Запрос: /?page=2.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined property: stdClass::$205</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/?page=2, referer=http://top.dev/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 183,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:30
+
+
+13.07.2017 18:30
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:31
+
+
+13.07.2017 18:31
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
+13.07.2017 18:32
+
+
+13.07.2017 18:32
+Произошла ошибка с кодом <b>8</b> Замечание!
+Файл: C:\OpenServer\domains\top_post\index.php(62) : eval()'d code, строка 164.
+<br>
+61:     ob_start();
+<br>
+62:     eval((' ?&gt;' . $data['content'] . "&lt;? "));
+<br>
+63:     $data['content'] = ob_get_contents();  // Получаем содержимое буфера
+
+163: 
+164: 
+165: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM pages WHERE parent=0 and url="" LIMIT 1.
+Текст ошибки: <i>Undefined index: page</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+)
+
+<br>
+<a href='http://top.dev/log/error/2krsj00h5o835ngh84fsnutvm6.htm'>Переменные</a>
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\include\\common-utf8\\func.php',
+    'line' => 482,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php(62) : eval()\'d code',
+    'line' => 164,
+    'function' => 'myErrorHandler',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\OpenServer\\domains\\top_post\\index.php',
+    'line' => 62,
+    'function' => 'eval',
+  ),
+).<br>
+
